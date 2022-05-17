@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import json
 import urllib.request
 import os
-import imageio #to make gif
 # database 
 url = 'https://raw.githubusercontent.com/thanhqtran/gso-macro-monitor/main/gso_database.json'
 response = urllib.request.urlopen(url)
