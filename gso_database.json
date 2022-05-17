@@ -1,0 +1,47 @@
+{
+    "database": {
+        "Administrative Unit and Climate": {
+            "Administrative Unit and Climate": {
+                "Total sunshine duration at some stations":"https://pxweb.gso.gov.vn:443/sq/abe833c0-174f-4157-be14-9491a43c28bd",
+                "Monthly sunshine duration at some stations":"https://pxweb.gso.gov.vn:443/sq/f49eab0e-e462-4fcf-b424-3528c2625350",
+                "Total Rainfall at some stations":"https://pxweb.gso.gov.vn:443/sq/f1716857-b3f4-47b5-bfee-5551670aefde",
+                "Total Annual Rainfall at some stations by Cities":"https://pxweb.gso.gov.vn:443/sq/2f1c8576-8e6f-474e-89fc-25123dff227c",
+                "Change in average precipitation by Province city and Year":"https://pxweb.gso.gov.vn:443/sq/cd7ca3fe-28c9-4c18-9c89-be5f4cff8133",
+                "Monthly mean humidity at some stations":"https://pxweb.gso.gov.vn:443/sq/0dec0517-3ad0-4f1f-96cb-bb236c337a0b",
+                "Mean air temperature at some stations":"https://pxweb.gso.gov.vn:443/sq/4c9320e6-6a75-4e29-bea3-ef04fcf4117b",
+                "Mean air temperature at some stations by Cities provinces and Year":"https://pxweb.gso.gov.vn:443/sq/a9c61868-6712-4e98-bb80-77aba65df7c3",
+                "Monthly mean air temperature at some stations by Year Cities provincies and Month":"https://pxweb.gso.gov.vn:443/sq/4394f81d-5536-4165-86f6-b828a966ec12",
+                "Water level of some main rivers by Station Water level and Year":"https://pxweb.gso.gov.vn:443/sq/31c03e15-7152-422d-a880-7bbec2a919c9",
+                "Water flow of some main rivers by Station Water flow and Year":"https://pxweb.gso.gov.vn:443/sq/a28e6de4-d67b-4037-9829-7766f380d8c8"
+            },
+        "url":"https://pxweb.gso.gov.vn/pxweb/en/Administrative%20Unit%20and%20Climate/?rxid=6f2119fa-0ffc-4d4d-946c-e958bb00ae67"
+        },
+        "National Accounts and State budget": {
+            "National Accounts and State budget":{
+                "Key indicators on National Accounts by Items and Year":"https://pxweb.gso.gov.vn:443/sq/1cffd114-e0af-46da-a23d-b5e2ec47309b",
+                "Gross domestic product at current prices by economic sector by Year Items and Economic sector":"https://pxweb.gso.gov.vn:443/sq/762aea43-577b-4d66-843a-e0d9528f616a",
+                "Gross domestic product at constant 2010 prices by economic sector by Year Indicators and Economic sector":"https://pxweb.gso.gov.vn:443/sq/b3d69342-9f6c-49bd-8701-0fc0d552dccf",
+                "Gross domestic product at current prices by types of ownership and by kinds of economic activity":"https://pxweb.gso.gov.vn:443/sq/46651137-db47-4821-86da-f005919c2fc3",
+                "Gross domestic product at constant 2010 prices by types of ownership and by kinds of economic activity (Previous year = 100) by By types Iterms and Year":"https://pxweb.gso.gov.vn:443/sq/a9872011-900a-4b86-b44a-5813d6a93a74",
+                "Gross domestic product by expenditure category at current prices by Items Expenditure category and Year":"https://pxweb.gso.gov.vn:443/sq/6e997eea-8753-4099-b5a5-a12513635f18",
+                "Gross domestic product by expenditure category at constant 2010 prices by Items Expenditure category and Year":"https://pxweb.gso.gov.vn:443/sq/1c71c96b-f856-4acf-a45d-31223f070fc5",
+                "Gross national income at current prices by Year and Items":"https://pxweb.gso.gov.vn:443/sq/8df63da5-f034-470e-98ed-37bc8d1e70cc",
+                "State budget revenue (*) by Indicators State budget revenue and Year":"https://pxweb.gso.gov.vn:443/sq/af873470-228c-4eb7-8c82-87d5c01a7679",
+                "State budget expenditure (*) by Indicators State budget expenditure and Year":"https://pxweb.gso.gov.vn:443/sq/20cbbdab-2096-4ce4-bbb3-1c560a35b4b7",
+                "Total liquidity deposits as of annual 31/12 by Classify Total liquidity deposits and Year":"https://pxweb.gso.gov.vn:443/sq/2489a59d-23c3-4217-b5c0-338a5a0212b1",
+                "Credit outstanding of credit institutions, branches of foreign bank as of annual 31/12(*) by Classify Credit outstanding Term and Year":"https://pxweb.gso.gov.vn:443/sq/a2cb8b14-42db-4837-94a9-33266122cc35",
+                "Interest rate by Average interest rate and Year":"https://pxweb.gso.gov.vn:443/sq/35b0784b-f734-4267-b9e9-9249d2678d23",
+                "Social insurance health insurance and unemployment insurance by Indicators and Year":"https://pxweb.gso.gov.vn:443/sq/8d02b876-a7a1-4290-857a-0afeda06e077"
+            },
+        "url":"https://pxweb.gso.gov.vn/pxweb/en/National%20Accounts%20and%20State%20budget/National%20Accounts%20and%20State%20budget/?tablelist=true&rxid=6f2119fa-0ffc-4d4d-946c-e958bb00ae67"
+        },
+        "Population and Employment": {
+            "Population and Employment": {
+                "Area population and population density by province by Cities provincies Year and Items":"https://pxweb.gso.gov.vn:443/sq/a8053b0e-831d-434f-b8ab-77b47a09ad3c",
+                "Average population by sex and by residence by Items Year and Sex residence":"https://pxweb.gso.gov.vn:443/sq/0fe3bcf8-387b-4007-b25d-0d9afa27756c",
+                "Average population by province, sex and residence by Cities provincies Average population and Year":"https://pxweb.gso.gov.vn:443/sq/4a81d2fe-58bd-4bc0-b750-39f21f0a2220"
+            },
+        "url":"https://pxweb.gso.gov.vn/pxweb/en/Population%20and%20Employment/Population%20and%20Employment/?tablelist=true&rxid=6f2119fa-0ffc-4d4d-946c-e958bb00ae67"
+        }
+    }
+}
