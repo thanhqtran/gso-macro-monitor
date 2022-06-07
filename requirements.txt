@@ -81,3 +81,6 @@ webencodings==0.5.1
 websocket-client==1.2.3
 widgetsnbextension==3.5.2
 zipp==3.7.0
+xmltodict==0.13.0
+beautifulsoup4==4.11.1
+imageio==2.19.3
