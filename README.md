@@ -1,5 +1,5 @@
 # Macroeconomic Monitor
-Real-time Reading and Plotting Data from GSO
+Real-time Reading and Plotting macroeconomic data scraped from Vietnam's General Statistics Office (GSO) and other sources.
 
 ## Data sources
 
@@ -21,3 +21,5 @@ Real-time Reading and Plotting Data from GSO
 - [json viewer](http://jsonviewer.stack.hu/)
 
 - [Code Beautify](https://codebeautify.org)
+
+## Deploy at [Macro Monitor](https://thanhqtran.github.io/macroeconomicmonitor/)
