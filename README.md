@@ -10,11 +10,14 @@ Real-time Reading and Plotting Data from GSO
 - My dataset collection: [thanhqtran/dataset](https://github.com/thanhqtran/dataset)
 ## Code Reference:
 
-Real-time routines: [Scheduling Notebook and Script Runs with GitHub Actions](https://towardsdatascience.com/scheduling-notebook-and-script-runs-with-github-actions-cc60f3ac17f2), with [Git Repo](https://github.com/venkatesannaveen/medium-articles).
+- Real-time routines: [Scheduling Notebook and Script Runs with GitHub Actions](https://towardsdatascience.com/scheduling-notebook-and-script-runs-with-github-actions-cc60f3ac17f2), with [Git Repo](https://github.com/venkatesannaveen/medium-articles).
 
-[Git-hub Stats real-time visualization](https://github.com/jstrieb/github-stats)
+- [Git-hub Stats real-time visualization](https://github.com/jstrieb/github-stats)
 
-[Making gif animation plots](https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30)
+- [Making gif animation plots](https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30)
+  
+## To visualize data structure
 
-[json viewer](http://jsonviewer.stack.hu/)
+- [json viewer](http://jsonviewer.stack.hu/)
 
+- [Code Beautify](https://codebeautify.org)
