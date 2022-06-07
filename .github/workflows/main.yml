@@ -26,6 +26,7 @@ jobs:
         run: |
           cd gdp/
           python generate_image.py
+          python generate_gif.py
       
       - name: Commit and Push Changes
         run: |
