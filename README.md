@@ -1,7 +1,14 @@
 # Macroeconomic Monitor
 Real-time Reading and Plotting Data from GSO
 
-## Sources:
+## Data sources
+
+- Vietnam consolidated macroeconomic data: [DSBB Standard](http://nsdp.gso.gov.vn/index.htm)
+
+- General Statistics Office of Vietnam: [GSO](https://pxweb.gso.gov.vn/pxweb/en/)
+
+- My dataset collection: [thanhqtran/dataset](https://github.com/thanhqtran/dataset)
+## Code Reference:
 
 Real-time routines: [Scheduling Notebook and Script Runs with GitHub Actions](https://towardsdatascience.com/scheduling-notebook-and-script-runs-with-github-actions-cc60f3ac17f2), with [Git Repo](https://github.com/venkatesannaveen/medium-articles).
 
