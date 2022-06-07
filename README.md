@@ -1,5 +1,7 @@
 # Macroeconomic Monitor
-Real-time Reading and Plotting macroeconomic data scraped from Vietnam's General Statistics Office (GSO) and other sources.
+Real-time reading and visualizing macroeconomic data scraped from Vietnam's General Statistics Office (GSO) and other sources.
+
+This project aims at providing the most accurate and up-to-date data about Vietnamese economy.
 
 ## Data sources
 
@@ -22,4 +24,4 @@ Real-time Reading and Plotting macroeconomic data scraped from Vietnam's General
 
 - [Code Beautify](https://codebeautify.org)
 
-## Deploy at [Macro Monitor](https://thanhqtran.github.io/macroeconomicmonitor/)
+### Deployed at [Macro Monitor](https://thanhqtran.github.io/macroeconomicmonitor/)
