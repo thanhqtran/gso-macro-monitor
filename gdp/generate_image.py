@@ -18,14 +18,12 @@ parent = 'National Accounts and State budget'
 query = 'Gross domestic product at current prices by economic sector by Year Items and Economic sector'
 # use get method twice to extract desired variable
 query_url = na_database.get(parent, {}).get(query, {})
-# plot 
 ## helper function to fix output folder 
-def generate_output_folder() -> None:
-    """
-    Create the output folder if it does not already exist
-    """
-    if not os.path.isdir("generated"):
-        os.mkdir("generated")
+directory = os.getcwd()
+path = directory + '/gdp/generated/'
+isExist = os.path.exists(path)
+if not isExist:
+    os.makedirs(path)
 
 # extract csv link to the data
 data = pd.read_csv(query_url, skiprows=1)
@@ -50,10 +48,7 @@ plt.xlabel('Year')
 plt.ylabel('Billion USD (2020)')
 plt.ticklabel_format(style='plain', axis='y')
 #write output
-generate_output_folder()
-output1 = plt.savefig('generated/gdp.png', bbox_inches='tight', dpi=300)
-with open("generated/gdp.png", "wb") as f:
-    f.write(output1)
+plt.savefig(path + '/gdp.png', bbox_inches='tight', dpi=300)
 # GDP structure 
 df_structure = df.iloc[:,[0,7,8,9,10]]
 df_structure.iloc[:,1:] = df_structure.iloc[:,1:].astype(float)
@@ -70,8 +65,4 @@ plt.title('GDP Structure')
 plt.xlabel('Year')
 plt.ylabel('Percent')
 plt.ticklabel_format(style='plain', axis='y')
-output2 = plt.savefig('generated/gdp_structure.png', dpi=300, bbox_inches='tight')
-#save output 
-generate_output_folder()
-with open("generated/gdp_structure.png", "wb") as f:
-    f.write(output2)
+plt.savefig(path + 'gdp_structure.png', dpi=300, bbox_inches='tight')
