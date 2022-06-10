@@ -27,7 +27,6 @@ def generate_output_folder() -> None:
     if not os.path.isdir("generated"):
         os.mkdir("generated")
 
-generate_output_folder()
 # extract csv link to the data
 data = pd.read_csv(query_url, skiprows=1)
 df = pd.DataFrame(data)
@@ -50,7 +49,11 @@ plt.title('Gross Domestic Product')
 plt.xlabel('Year')
 plt.ylabel('Billion USD (2020)')
 plt.ticklabel_format(style='plain', axis='y')
-output = plt.savefig('generated/gdp.png', bbox_inches='tight', dpi=300)
+#write output
+generate_output_folder()
+output1 = plt.savefig('generated/gdp.png', bbox_inches='tight', dpi=300)
+with open("generated/gdp.png", "wb") as f:
+    f.write(output1)
 # GDP structure 
 df_structure = df.iloc[:,[0,7,8,9,10]]
 df_structure.iloc[:,1:] = df_structure.iloc[:,1:].astype(float)
@@ -67,4 +70,8 @@ plt.title('GDP Structure')
 plt.xlabel('Year')
 plt.ylabel('Percent')
 plt.ticklabel_format(style='plain', axis='y')
-output = plt.savefig('generated/gdp_structure.png', dpi=300, bbox_inches='tight')
+output2 = plt.savefig('generated/gdp_structure.png', dpi=300, bbox_inches='tight')
+#save output 
+generate_output_folder()
+with open("generated/gdp_structure.png", "wb") as f:
+    f.write(output2)
