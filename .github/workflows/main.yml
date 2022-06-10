@@ -7,7 +7,7 @@ on:
 
 jobs:
   update_plot:
-    name: Update plot with new location weather data
+    name: Update plot with new data
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,10 +22,15 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Script and Update Plot
+      - name: Run Script and Update GDP plot
         run: |
           cd gdp/
           python generate_image.py
+          python generate_gif.py
+      
+      - name: Run script and update IIP plot
+        run: |
+          cd iip/
           python generate_gif.py
       
       - name: Commit and Push Changes
