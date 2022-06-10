@@ -35,15 +35,13 @@ def get_industry_data(dataframe):
 
 # ======== gif for iip ======================
 
-# helper function to create folder
-def generate_output_folder() -> None:
-    """
-    Create the output folder if it does not already exist
-    """
-    if not os.path.isdir("generated"):
-        os.mkdir("generated")
+## helper function to fix output folder 
+directory = os.getcwd()
+path = directory + '/iip/generated/'
+isExist = os.path.exists(path)
+if not isExist:
+    os.makedirs(path)
 
-generate_output_folder()
 
 # generate gif 
 filenames = []
@@ -77,7 +75,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = 'generated/iip.gif'
+gif_filename = path + '/iip.gif'
 images = []
 
 for filename in filenames:
