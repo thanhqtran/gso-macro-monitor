@@ -85,3 +85,4 @@ xmltodict==0.13.0
 beautifulsoup4==4.11.1
 imageio==2.19.3
 bs4==0.0.1
+lxml==4.8.0

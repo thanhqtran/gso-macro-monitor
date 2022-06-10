@@ -6,11 +6,13 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 import imageio
+import lxml 
+
 # extract .xml data from gso and convert to python dictionary 
 url = 'http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GSO.%20Chi%20so%20cong%20nghiep.IIP_Vietnam.xml'
 # read xml file from url 
 r = requests.get(url)
-soup = BeautifulSoup(r.text, 'xml')
+soup = BeautifulSoup(r.text, features="xml")
 # convert xml to python dict
 data = xmltodict.parse(str(soup))
 # data structure 
