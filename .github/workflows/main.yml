@@ -1,4 +1,4 @@
-name: Update GDP Plot
+name: Update Plots
 
 on:
   schedule:
