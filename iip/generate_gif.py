@@ -73,6 +73,7 @@ for i in range(0, len(x)):
     filenames.append(filename)
     
     # save frame
+    plt.tight_layout()
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     plt.close()
 # build gif

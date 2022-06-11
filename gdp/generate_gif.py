@@ -53,7 +53,7 @@ for i in range(0, len(x)):
     fig, ax = plt.subplots(figsize=(8,5))
     plt.stackplot(x[:i], y1[:i], y2[:i], y3[:i], y4[:i], labels=['Agriculture', 'Industrial', 'Service', 'Tax Subsidy'])
     plt.legend(loc='upper left')
-    plt.title('Gross Domestic Product for Vietnam (national currency) 1986-2020')
+    plt.title('Gross Domestic Product for Vietnam (national currency)')
     plt.xlabel('Year')
     plt.ylabel('VND')
     plt.ticklabel_format(style='plain', axis='y')
@@ -97,7 +97,7 @@ for i in range(0, len(x)):
     fig, ax = plt.subplots(figsize=(8,5))
     plt.stackplot(x[:i], y1[:i], y2[:i], y3[:i], y4[:i], labels=['Agriculture', 'Industrial', 'Service', 'Tax Subsidy'])
     plt.legend(loc='upper left')
-    plt.title('Vietnam. Contribution to GDP by sector (1986-2020)')
+    plt.title('Vietnam. Contribution to GDP by sector')
     plt.xlabel('Year')
     plt.ticklabel_format(style='plain', axis='y')
     
