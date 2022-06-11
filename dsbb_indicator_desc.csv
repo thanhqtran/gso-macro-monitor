@@ -1,0 +1,34 @@
+﻿indicator,desc,domain
+PCPI_IX,"Consumer Price Index, Index ",CPI
+PCPI_CP_01_IX,"Food and Foodstuffs, Index ",CPI
+PCPI_CP_011_IX,"Food, Index ",CPI
+VNM_PCPI_CP_011FS_IX ,"Foodstuffs, Index ",CPI
+PCPIFFA_IX,"Food Consumption Outside Home, Index ",CPI
+PCPI_CP_02_IX,"Beverages and Cigarettes, Index ",CPI
+PCPI_CP_03_IX,"Garments, Footwear and Hats, Index ",CPI
+PCPI_CP_04_IX,"Housing and Material Construction including Electricity, Water and Fuel, Index ",CPI
+PCPI_CP_05_IX,"Household Equipment and Goods, Index ",CPI
+PCPI_CP_06_IX,"Medication and Health, Index ",CPI
+VNM_PCPI_CP_062T063_IX,"Of which: Health Care, Index",CPI
+PCPI_CP_07_IX,"Transport, Index ",CPI
+PCPI_CP_08_IX,"Postal Services and Telecommunication, Index ",CPI
+PCPI_CP_10_IX,"Education, Index ",CPI
+VNM_PCPI_CP_102T105_IX,"Of which: Educational Services, Index",CPI
+PCPI_CP_09_IX,"Culture, Entertainment and Tourism, Index",CPI
+PCPI_CP_12_IX,"Other Consumer Goods and Services, Index ",CPI
+PCPI_WT,"Consumer Price Weight, Weight ",CPI
+PCPI_CP_01_WT,"Food and Foodstuffs, Weight ",CPI
+PCPI_CP_011_WT,"Food, Weight ",CPI
+VNM_PCPI_CP_011FS_WT,"Foodstuffs, Weight ",CPI
+PCPIFFA_WT,"Food Consumption Outside Home, Weight ",CPI
+PCPI_CP_02_WT,"Beverages and Cigarettes, Weight ",CPI
+PCPI_CP_03_WT,"Garments, Footwear and Hats, Weight ",CPI
+PCPI_CP_04_WT,"Housing and Material Construction including Electricity, Water and Fuel, Weight ",CPI
+PCPI_CP_05_WT,"Household Equipment and Goods, Weight ",CPI
+PCPI_CP_06_WT,"Medication and Health, Weight ",CPI
+PCPI_CP_07_WT,"Transport, Weight ",CPI
+PCPI_CP_08_WT,"Postal Services and Telecommunication, Weight ",CPI
+PCPI_CP_10_WT,"Education, Weight ",CPI
+PCPI_CP_09_WT,"Culture, Entertainment and Tourism, Weight",CPI
+PCPI_CP_12_WT,"Other Consumer Goods and Services, Weight ",CPI
+PCPICO_BY_CP_A_PT,Core CPI ( Y/Y % Change),CPI
