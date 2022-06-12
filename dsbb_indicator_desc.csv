@@ -301,3 +301,42 @@ VNM_EXD_PDDSPP_XDC,Enterprises External debt,       Nợ nước ngoài của do
 VNM_EXD_DDSIP_XDC,Interest and Commissions payment,    Tổng trả lãi và phí trong kỳ ,EXD
 VNM_EXD_GDDSIP_XDC,Government extenal debt,       Nợ nước ngoài của chính phủ ,EXD
 VNM_EXD_PDDSIP_XDC,Enterprises External debt,       Nợ nước ngoài của doanh nghiệp,EXD
+VNM_GGO_GGBNGDP_XDC,GDP,GDP,MOF
+VNM_GGO_GGBRG_XDC,State budget revenues and grants,Thu NSNN và viện trợ,MOF
+VNM_GGO_GGBRTF_XDC,Taxes and Fees,Thu từ thuế và phí,MOF
+VNM_GGO_GGBRCAPR_XDC,Capital revenues,Thu về vốn ,MOF
+VNM_GGO_GGBRGG_XDC,Grants,Thu viện trợ không hoàn lại,MOF
+VNM_GGO_GGBE_XDC,Total State expenditures,Tổng chi ngân sách nhà nước,MOF
+VNM_GGO_GGBEID_XDC,Investment and development expenditures,Chi đầu tư phát triển,MOF
+VNM_GGO_GGBECE_XDC,Current expenditures,Chi thường xuyên,MOF
+VNM_GGO_GGBOB_XDC,Overall Balance,Bội chi ngân sách,MOF
+VNM_GGO_GGBOB_GDP_PT,Overall Balance (% of GDP),Bội chi so với GDP (%),MOF
+VNM_GGO_GGBEPR_XDC,Principal repayment,Chi trả nợ gốc,MOF
+VNM_GGO_GGRG_XDC,State budget revenues and grants (I+II+III),Thu ngân sách nhà nước và viện trợ (I+II+III),MOF
+VNM_GGO_GGRGCR_XDC,Current revenues,Thu thường xuyên,MOF
+VNM_GGO_GGRT_XDC,Taxes,Thu thuế,MOF
+VNM_GGO_GGRTC_XDC,Corporate income tax,Thuế thu nhập doanh nghiệp,MOF
+VNM_GGO_GGRTP_XDC,Personal income tax,Thuế thu nhập cá nhân,MOF
+VNM_GGO_GGRTLH_XDC,Land and housing tax,Thuế sử dụng đất phi nông nghiệp,MOF
+VNM_GGO_GGRTR_XDC,Registration tax,Lệ phí trước bạ,MOF
+VNM_GGO_GGRTVAT_XDC,Value added tax,Thuế giá trị gia tăng ,MOF
+VNM_GGO_GGRTE_XDC,Excise tax,Thuế tiêu thụ đặc biệt,MOF
+VNM_GGO_GGRTNR_XDC,Natural resouces tax,Thuế tài nguyên,MOF
+VNM_GGO_GGRTA_XDC,Agricultural land-use tax,Thuế sử dụng đất nông nghiệp,MOF
+VNM_GGO_GGRTXMP_XDC,"Imp - Exp. tax, excise tax and environmental protection tax on Imports","Thuế xuất khẩu, nhập khẩu, TTĐB và BVMT hàng nhập khẩu",MOF
+VNM_GGO_GGRTEP_XDC,Environmental protection tax,Thuế bảo vệ môi trường,MOF
+VNM_GGO_GGRTL_XDC,Revenue from Loterry,Thu từ hoạt động xổ số kiến thiết,MOF
+VNM_GGO_GGRNT_XDC,"Fees, charges and non-tax","Thu phí, lệ phí và thu ngoài thuế",MOF
+VNM_GGO_GGRNTFC_XDC,Fees and charges (include gasoline fee),"Thu phí, lệ phí",MOF
+VNM_GGO_GGRNTLR_XDC,Land rents,Thu tiền cho thuê đất,MOF
+VNM_GGO_GGRNTM_XDC,Miscellaneous revenues,Các khoản thu khác,MOF
+VNM_GGO_GGRCAPR_XDC,"Capital revenues (revenues from sale of State - owned houses, land user right assignment)","Thu về vốn (thu bán nhà ở, thu tiền sử dụng đất)",MOF
+VNM_GGO_GGRGG_XDC,Grants,Viện trợ không hoàn lại,MOF
+VNM_GGO_GGE_XDC,Tổng chi NSNN ,Total state budget expenditures,MOF
+VNM_GGO_GGECE_XDC,Chi thường xuyên,Current expenditures,MOF
+VNM_GGO_GGECECU_XDC,Chi hoạt động thường xuyên,Current expenditures,MOF
+VNM_GGO_GGECESE_XDC,"- Chi giáo dục - đào tạo, dạy nghề",Education and training expenditures,MOF
+VNM_GGO_GGECESST_XDC,- Chi khoa học công nghệ,Science technology expenditures,MOF
+VNM_GGO_GGECEIP_XDC,Chi trả nợ lãi,Interest payment,MOF
+VNM_GGO_GGESR_XDC,Chi cải cách tiền lương,Salary reform expenditures,MOF
+VNM_GGO_GGEID_XDC,Chi đầu tư phát triển,Investment and development expenditures,MOF
