@@ -37,14 +37,6 @@ def get_industry_data(dataframe):
 
 # ======== gif for iip ======================
 
-## helper function to fix output folder 
-directory = os.getcwd()
-path = directory + '/iip/generated/'
-isExist = os.path.exists(path)
-if not isExist:
-    os.makedirs(path)
-
-
 # generate gif 
 filenames = []
 x = get_industry_data(df_industry)[0]
@@ -78,7 +70,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = path + '/iip.gif'
+gif_filename = 'iip.gif'
 images = []
 
 for filename in filenames:

@@ -37,13 +37,6 @@ y2 = df_gdp['Industrial']
 y3 = df_gdp['Service']
 y4 = df_gdp['Tax Subsidy']
 
-## helper function to fix output folder 
-directory = os.getcwd()
-path = directory + '/gdp/generated/'
-isExist = os.path.exists(path)
-if not isExist:
-    os.makedirs(path)
-
 
 # ======== gif for gdp ======================
 filenames = []
@@ -67,7 +60,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = path + '/gdp_na.gif'
+gif_filename = 'gdp_na.gif'
 images = []
 
 for filename in filenames:
@@ -110,7 +103,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = path + '/gdp_sector.gif'
+gif_filename = 'gdp_sector.gif'
 images = []
 
 for filename in filenames:
