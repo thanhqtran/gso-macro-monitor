@@ -57,7 +57,7 @@ for i in range(0, len(x)):
     plt.xlabel('Year')
     plt.ylabel('VND')
     plt.ticklabel_format(style='plain', axis='y')
-    
+    plt.tight_layout()
     # create file name and append it to a list
     filename = f'{i}.png'
     filenames.append(filename)
