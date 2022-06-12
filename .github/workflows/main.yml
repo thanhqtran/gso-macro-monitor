@@ -1,8 +1,6 @@
 name: Update Plots
 
-on:
-  schedule:
-    - cron: '0 12 * * *'
+on: push
   workflow_dispatch:
 
 jobs:
