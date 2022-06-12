@@ -335,8 +335,24 @@ VNM_GGO_GGRGG_XDC,Grants,Viện trợ không hoàn lại,MOF
 VNM_GGO_GGE_XDC,Tổng chi NSNN ,Total state budget expenditures,MOF
 VNM_GGO_GGECE_XDC,Chi thường xuyên,Current expenditures,MOF
 VNM_GGO_GGECECU_XDC,Chi hoạt động thường xuyên,Current expenditures,MOF
-VNM_GGO_GGECESE_XDC,"- Chi giáo dục - đào tạo, dạy nghề",Education and training expenditures,MOF
-VNM_GGO_GGECESST_XDC,- Chi khoa học công nghệ,Science technology expenditures,MOF
+VNM_GGO_GGECESE_XDC,"Chi giáo dục - đào tạo, dạy nghề",Education and training expenditures,MOF
+VNM_GGO_GGECESST_XDC,Chi khoa học công nghệ,Science technology expenditures,MOF
 VNM_GGO_GGECEIP_XDC,Chi trả nợ lãi,Interest payment,MOF
 VNM_GGO_GGESR_XDC,Chi cải cách tiền lương,Salary reform expenditures,MOF
 VNM_GGO_GGEID_XDC,Chi đầu tư phát triển,Investment and development expenditures,MOF
+PPPI_ISIC4_A_BY_PP_IX,,"Agricultural, Forestry & Fishing Products",PPI
+PPPI_ISIC4_A01_BY_PP_IX,,Agriculture Products,PPI
+PPPI_ISIC4_A02_BY_PP_IX,,Forestry Products,PPI
+PPPI_ISIC4_A03_BY_PP_IX,,Fishing Products,PPI
+VNM_PPPI_ISIC4_BTE_BY_PP_IX,,Industrial Products,PPI
+PPPI_ISIC4_B_BY_PP_IX,,Mining and Quarrying,PPI
+PPPI_ISIC4_C_BY_PP_IX,,Manufacturing,PPI
+PPPI_ISIC4_D_BY_PP_IX,,"Production & supply of electricity, gas, hot water, steam and air-conditioning",PPI
+PPPI_ISIC4_E_BY_PP_IX,,"Water supply; sewerage, waste management and remediation activities",PPI
+VNM_PPPI_ISIC4_HTJ_PTR_BY_PP_IX,,Services,PPI
+PPPI_ISIC4_H_BY_PP_IX,,Transportation and Storage,PPI
+PPPI_ISIC4_I_BY_PP_IX,,Accomodation and catering service,PPI
+PPPI_ISIC4_J_BY_PP_IX,,Information and Communication,PPI
+PPPI_ISIC4_P_BY_PP_IX,,Education and Training,PPI
+PPPI_ISIC4_Q_BY_PP_IX,,Human Health and Social Work Activities,PPI
+PPPI_ISIC4_R_BY_PP_IX,,"Arts, Entertainment & Recreation",PPI
