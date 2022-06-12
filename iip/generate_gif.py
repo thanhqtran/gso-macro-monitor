@@ -70,7 +70,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = 'iip.gif'
+gif_filename = '/generated_gif/iip.gif'
 images = []
 
 for filename in filenames:

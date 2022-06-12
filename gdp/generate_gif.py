@@ -60,7 +60,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = 'gdp_na.gif'
+gif_filename = '/generated_gif/gdp_na.gif'
 images = []
 
 for filename in filenames:
@@ -103,7 +103,7 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = 'gdp_sector.gif'
+gif_filename = '/generated_gif/gdp_sector.gif'
 images = []
 
 for filename in filenames:
