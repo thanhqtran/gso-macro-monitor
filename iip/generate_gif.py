@@ -70,7 +70,8 @@ for i in range(0, len(x)):
     plt.close()
 # build gif
 
-gif_filename = '/generated_gif/iip.gif'
+directory = os.getcwd()
+gif_filename = f'{directory}/generated_gif/iip.gif'
 images = []
 
 for filename in filenames:
