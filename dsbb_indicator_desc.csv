@@ -356,3 +356,8 @@ PPPI_ISIC4_J_BY_PP_IX,Information and Communication,Thông tin và truyền thô
 PPPI_ISIC4_P_BY_PP_IX,Education and Training,Giáo dục đào tạo ,PPI
 PPPI_ISIC4_Q_BY_PP_IX,Human Health and Social Work Activities,Y tế và hoạt động cứu trợ xã hội ,PPI
 PPPI_ISIC4_R_BY_PP_IX,"Arts, Entertainment & Recreation","Nghệ thuật, vui chơi và giải trí ",PPI
+VNM_VN_EOP_IX,VNI Value,Giá trị VNI index,SPI
+VNM_HNX_EOP_IX,HNX Value,Giá trị HNX index,SPI
+VNM_VN30_EOP_IX,VN30 Value,Giá trị VN30 index,SPI
+VNM_HNX30_EOP_IX,HNX30 Value,Giá trị HNX30 index,SPI
+VNM_VNX_EOP_IX,VNX Allshare,Giá trị VNX Allshare,SPI
