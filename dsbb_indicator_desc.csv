@@ -179,10 +179,10 @@ VNM_BFRAO_BP6_USD,Reserve assets ,Tài sản dự trữ,BOP58
 VNM_BFRAIMF_BP6_USD,Credit & Loans from IMF ,Tín dụng và vay nợ từ IMF,BOP59
 VNM_BEF_BP6_USD,Exceptional Finacing ,Tài trợ đặc biệt,BOP60
 TB_USD,"Merchandise Trade Balance (NSA, Mil.US$)",Cán cân thương mại hàng hóa,MET
-TXG_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET
+TXGBD_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET
 TMG_CIF_USD,"Imports (NSA, Mil.US$)",Nhập khẩu,MET
 TXG_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET
-TXG_DS_FOB_USD,"Exports: Domestic Economic Sector (NSA, Mil.US$)",Khu vực kinh tế trong nước,MET
+VNM_TXG_FS_FOB_USD,"Exports: Domestic Economic Sector (NSA, Mil.US$)",Khu vực kinh tế trong nước,MET
 TXG_FS_FOB_USD,"Exports: Foreign Investment Sector (NSA, Mil.US$) (Including Crude oil)",Khu vực có vốn đầu tư trực tiếp nước ngoài,MET
 TXGFP_FOB_USD,"Exports: Fishery Products (NSA, Mil.US$) ",Hàng thuỷ sản,MET
 VNM_TXGFR_TXGVEG_FOB_USD,"Exports: Vegetables and Fruits (NSA, Mil.US$)","Hàng rau, hoa, quả",MET
