@@ -114,24 +114,24 @@ desc['domain'].apply(lambda x: str(x))
 # do not display output 
 pd.set_option('display.max_columns', None)
 
-# dataframes from database
 ## get database that matches column var 
 df_gdp = get_data(database['url'][database['var'] == 'gdp'].values[0])
-
-df_gdp = get_data(database['url'][1])
-df_cpi = get_data(database['url'][2])
-df_govbudget = get_data(database['url'][3])
-df_gov_debt = get_data(database['url'][4])
-df_interest = get_data(database['url'][5])
-df_stock = get_data(database['url'][6])
-df_bop = get_data(database['url'][7])
-df_extdebt = get_data(database['url'][8])
-df_exr = get_data(database['url'][9])
-df_iip = get_data(database['url'][10])
-df_lab = get_data(database['url'][11])
-df_ppi = get_data(database['url'][12])
-df_pop = get_data(database['url'][13])
-df_trade = get_data(database['url'][14])
+df_cpi = get_data(database['url'][database['var'] == 'cpi'].values[0])
+df_govbudget = get_data(
+    database['url'][database['var'] == 'gov_budget'].values[0])
+df_gov_debt = get_data(
+    database['url'][database['var'] == 'gov_debt'].values[0])
+df_interest = get_data(
+    database['url'][database['var'] == 'interest'].values[0])
+df_stock = get_data(database['url'][database['var'] == 'stock'].values[0])
+df_bop = get_data(database['url'][database['var'] == 'bop'].values[0])
+df_extdebt = get_data(database['url'][database['var'] == 'ext_debt'].values[0])
+df_exr = get_data(database['url'][database['var'] == 'exchange_rt'].values[0])
+df_iip = get_data(database['url'][database['var'] == 'prod_index'].values[0])
+df_lab = get_data(database['url'][database['var'] == 'labor'].values[0])
+df_ppi = get_data(database['url'][database['var'] == 'ppi'].values[0])
+df_pop = get_data(database['url'][database['var'] == 'pop'].values[0])
+df_trade = get_data(database['url'][database['var'] == 'trade'].values[0])
 
 ################################################################################
 # Individual DataFrame Processing

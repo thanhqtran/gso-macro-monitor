@@ -31,7 +31,7 @@ PCPI_CP_08_WT,"Postal Services and Telecommunication, Weight ",Bưu chính viễ
 PCPI_CP_10_WT,"Education, Weight ",Giáo dục,CPI
 PCPI_CP_09_WT,"Culture, Entertainment and Tourism, Weight","Văn hoá, giải trí và du lịch",CPI
 PCPI_CP_12_WT,"Other Consumer Goods and Services, Weight ",Đồ dùng và dịch vụ khác,CPI
-PCPICO_BY_CP_A_PT,Core CPI ( Y/Y % Change),Lạm phát cơ bản,CPI
+PCPICO_PC_PP_PT,Core CPI ( Y/Y % Change),Lạm phát cơ bản,CPI
 AIP_ISIC4_IX,Industry (2015=100),Chỉ số sản xuất công nghiệp,IND
 AIP_ISIC4_B_IX,Mining and Quarying (2015=100),Khai khoáng,IND
 AIP_ISIC4_C_IX,Manufacturing (2015=100),"Công nghiệp chế biến, chế tạo",IND
