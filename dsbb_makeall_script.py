@@ -8,9 +8,75 @@ import numpy as np
 import matplotlib.pyplot as plt
 import imageio
 import textwrap
+
+################################################################################
+# Helper Functions
+################################################################################
+
+def generate_output_folder() -> None:
+    """
+    Create the output folder if it does not already exist
+    """
+    if not os.path.isdir("generated"):
+        os.mkdir("generated")
+
+
+def make_gif_multivar(plotname, df, shorten=True):
+    """
+    Create a gif from a list of dataframes
+    """
+    plotname = str(plotname)
+    filenames = []
+    labels = []
+    ys = {}
+    xs = {}
+    x = get_obs_data(df[0])[0]
+    for i in range(0, len(df)):
+        label_raw = desc[desc['indicator'] ==
+                         df[i]['@INDICATOR']]['desc'].values[0]
+        if shorten:
+            label = textwrap.fill(label_raw, 15)
+        else:
+            label = label_raw
+        labels.append(label)
+        xs[label], ys[label] = get_obs_data(df[i])
+    for time in range(0, len(x)):
+        fig, ax = plt.subplots(figsize=(10, 5))
+        for j in range(0, len(labels)):
+            plt.plot(xs[labels[j]][:time], ys[labels[j]]
+                     [:time], label=labels[j])
+        plt.xticks(rotation=45, size=10)
+        plt.legend(bbox_to_anchor=(1.04, 0.5),
+                   loc="center left", borderaxespad=0)
+        plt.tight_layout()
+        #create file name and add to list
+        filename = f'{time}.png'
+        filenames.append(filename)
+        #save frames
+        plt.title(plotname)
+        plt.savefig(filename, dpi=300, bbox_inches='tight')
+        plt.close()
+    # build gif
+    gif_filename = f'{save_loc}{plotname}.gif'
+    images = []
+    duration = 0.15
+
+    with imageio.get_writer(gif_filename, mode='I', duration=duration, loop=1) as writer:
+        for filename in filenames:
+            image = imageio.imread(filename)
+            writer.append_data(image)
+
+    # Remove files
+    for filename in set(filenames):
+        os.remove(filename)
+
 #directory 
 directory = os.getcwd()
 save_loc = f'{directory}/generated_gif/'
+
+################################################################################
+# Functions to get Data
+################################################################################
 
 # get indicator descriptions
 def get_data(url):
@@ -33,50 +99,6 @@ def get_obs_data(dataframe):
         x_dict.append(x)
         y_dict.append(y)
     return x_dict, y_dict
-
-# gif with multiple indicators
-def make_gif_multivar(plotname, df, shorten=True):
-    plotname = str(plotname)
-    filenames = []
-    labels = []
-    ys = {}
-    xs = {}
-    x = get_obs_data(df[0])[0]
-    for i in range(0, len(df)):
-        label_raw = desc[desc['indicator'] == df[i]['@INDICATOR']]['desc'].values[0]
-        if shorten:
-            label = textwrap.fill(label_raw, 15)
-        else:
-            label = label_raw
-        labels.append(label)
-        xs[label], ys[label] = get_obs_data(df[i])
-    for time in range(0, len(x)):
-        fig, ax = plt.subplots(figsize=(10,5))
-        for j in range(0, len(labels)):
-            plt.plot(xs[labels[j]][:time], ys[labels[j]][:time], label=labels[j])
-        plt.xticks(rotation=45, size=10)
-        plt.legend(bbox_to_anchor=(1.04,0.5), loc="center left", borderaxespad=0)
-        plt.tight_layout()
-        #create file name and add to list
-        filename = f'{time}.png'
-        filenames.append(filename)
-        #save frames
-        plt.title(plotname)
-        plt.savefig(filename, dpi=300, bbox_inches='tight')
-        plt.close()
-    # build gif
-    gif_filename = f'{save_loc}{plotname}.gif'
-    images = []
-    duration = 0.15
-
-    with imageio.get_writer(gif_filename, mode='I', duration=duration, loop=1) as writer:
-        for filename in filenames:
-            image = imageio.imread(filename)
-            writer.append_data(image)
-
-    # Remove files
-    for filename in set(filenames):
-        os.remove(filename)
 
 #database with url
 database = pd.DataFrame(pd.read_csv('https://raw.githubusercontent.com/thanhqtran/gso-macro-monitor/main/dsbb_database.csv')).reset_index(drop=True)
@@ -108,9 +130,13 @@ df_ppi = get_data(database['url'][12])
 df_pop = get_data(database['url'][13])
 df_trade = get_data(database['url'][14])
 
+################################################################################
+# Individual DataFrame Processing
+################################################################################
+
+
 ### GDP data
 df_gdp1 = df_gdp['message:StructureSpecificData']['message:DataSet']['Series']
-df_gdp1
 # extract data based on INDICATOR
 agri_inds = ['NGDPVA_R_ISIC4_A01_XDC', 'NGDPVA_R_ISIC4_A02_XDC', 'NGDPVA_R_ISIC4_A03_XDC']
 industrial_inds = ['NGDPVA_R_ISIC4_B_XDC','NGDPVA_R_ISIC4_C_XDC','NGDPVA_R_ISIC4_D_XDC','NGDPVA_R_ISIC4_E_XDC','NGDPVA_R_ISIC4_F_XDC']
