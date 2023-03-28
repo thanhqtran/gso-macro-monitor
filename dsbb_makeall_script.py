@@ -115,6 +115,9 @@ desc['domain'].apply(lambda x: str(x))
 pd.set_option('display.max_columns', None)
 
 # dataframes from database
+## get database that matches column var 
+df_gdp = get_data(database['url'][database['var'] == 'gdp'].values[0])
+
 df_gdp = get_data(database['url'][1])
 df_cpi = get_data(database['url'][2])
 df_govbudget = get_data(database['url'][3])
