@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-import imageio
+import imageio.v2 as imageio
 import textwrap
 
 ################################################################################
@@ -134,6 +134,7 @@ df_trade = get_data(database['url'][14])
 # Individual DataFrame Processing
 ################################################################################
 
+generate_output_folder()
 
 ### GDP data
 df_gdp1 = df_gdp['message:StructureSpecificData']['message:DataSet']['Series']
