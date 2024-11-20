@@ -9,7 +9,9 @@ With the data, you can make fancy figures.
 
 **Notes**: We used archived links for now since some of the links are not accessible in real-time.
 
-The archived links contain data until the end of 2023. You can download it from the `Release` panel.
+The archived links contain data until the end of 2023. 
+
+You can download the whole dataset from the `Release` panel.
 
 ## Tiếng Việt
 
