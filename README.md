@@ -1,4 +1,4 @@
-# Macroeconomic Monitor
+# Vietnam Macroeconomic Monitor
 
 This project aims at providing the most accurate and up-to-date data about the Vietnamese economy.
 
@@ -12,6 +12,23 @@ With the data, you can make fancy figures.
 **Notes**: We used archived links for now since some of the links are not accessible in real-time.
 
 The archived links contain data until the end of 2023.
+
+## Vietnamese
+
+Để tiện cho mục tiêu nghiên cứu, mình viết một số script trên Python để cho máy đọc dữ liệu từ Tổng cục thống kê GSO.
+
+Hiện nay GSO có 13 CSDL kinh tế, chủ yếu quan tâm đến các dữ liệu vĩ mô theo quý.
+
+Những ai cần dùng có thể tải về toàn bộ data ở mục `Release`.
+
+Do link `SDMX` của GSO không ổn định, nhiều khi không truy cập được nên mình chỉ sử dụng các đường link sao lưu trên Internet Archive ở thời điểm gần nhất (2023/12/31).
+
+Trong tương lai, khi đường link chính ổn định hơn, mình sẽ update `Release` mới.
+
+Phần link gốc không có mô tả ý nghĩa `@INDICATOR`. Ai quan tâm có thể tham khảo ở file `dsbb_indicator_desc.csv`.
+
+
+---
 
 
 ## Data sources
