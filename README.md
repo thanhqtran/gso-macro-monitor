@@ -4,14 +4,12 @@ This project aims at providing the most accurate and up-to-date data about the V
 
 With the data, you can make fancy figures.
 
-## Procedure
-
 - I scrape the data from GSO (stored in `.xml` format). In total, there are 13 databases.
 - I then extract the information from these databases and store them in one single `.json` file.
 
 **Notes**: We used archived links for now since some of the links are not accessible in real-time.
 
-The archived links contain data until the end of 2023.
+The archived links contain data until the end of 2023. You can download it from the `Release` panel.
 
 ## Tiếng Việt
 
