@@ -1,363 +1,363 @@
-﻿indicator,desc,desc_vn,domain
-PCPI_IX,"Consumer Price Index, Index ",Chỉ số giá tiêu dùng,CPI
-PCPI_CP_01_IX,"Food and Foodstuffs, Index ",Hàng ăn và dịch vụ ăn uống,CPI
-PCPI_CP_011_IX,"Food, Index ",Lương thực,CPI
-VNM_PCPI_CP_011FS_IX ,"Foodstuffs, Index ",Thực phẩm,CPI
-PCPIFFA_IX,"Food Consumption Outside Home, Index ",Ăn uống ngoài gia đình,CPI
-PCPI_CP_02_IX,"Beverages and Cigarettes, Index ",Đồ uống và thuốc lá,CPI
-PCPI_CP_03_IX,"Garments, Footwear and Hats, Index ","May mặc, mũ nón và giày dép ",CPI
-PCPI_CP_04_IX,"Housing and Material Construction including Electricity, Water and Fuel, Index ",Nhà ở và vật liệu xây dựng,CPI
-PCPI_CP_05_IX,"Household Equipment and Goods, Index ",Thiết bị và đồ dùng gia đình,CPI
-PCPI_CP_06_IX,"Medication and Health, Index ",Thuốc và dịch vụ y tế,CPI
-VNM_PCPI_CP_062T063_IX,"Of which: Health Care, Index",    Trong đó: Dịch vụ y tế,CPI
-PCPI_CP_07_IX,"Transport, Index ",Giao thông,CPI
-PCPI_CP_08_IX,"Postal Services and Telecommunication, Index ",Bưu chính viễn thông,CPI
-PCPI_CP_10_IX,"Education, Index ",Giáo dục,CPI
-VNM_PCPI_CP_102T105_IX,"Of which: Educational Services, Index",    Trong đó: Dịch vụ giáo dục,CPI
-PCPI_CP_09_IX,"Culture, Entertainment and Tourism, Index","Văn hoá, giải trí và du lịch",CPI
-PCPI_CP_12_IX,"Other Consumer Goods and Services, Index ",Đồ dùng và dịch vụ khác,CPI
-PCPI_WT,"Consumer Price Weight, Weight ",Tỷ trọng giá tiêu dùng,CPI
-PCPI_CP_01_WT,"Food and Foodstuffs, Weight ",Hàng ăn và dịch vụ ăn uống,CPI
-PCPI_CP_011_WT,"Food, Weight ",Lương thực,CPI
-VNM_PCPI_CP_011FS_WT,"Foodstuffs, Weight ",Thực phẩm,CPI
-PCPIFFA_WT,"Food Consumption Outside Home, Weight ",Ăn uống ngoài gia đình,CPI
-PCPI_CP_02_WT,"Beverages and Cigarettes, Weight ",Đồ uống và thuốc lá,CPI
-PCPI_CP_03_WT,"Garments, Footwear and Hats, Weight ","May mặc, mũ nón và giày dép ",CPI
-PCPI_CP_04_WT,"Housing and Material Construction including Electricity, Water and Fuel, Weight ",Nhà ở và vật liệu xây dựng,CPI
-PCPI_CP_05_WT,"Household Equipment and Goods, Weight ",Thiết bị và đồ dùng gia đình,CPI
-PCPI_CP_06_WT,"Medication and Health, Weight ",Thuốc và dịch vụ y tế,CPI
-PCPI_CP_07_WT,"Transport, Weight ",Giao thông,CPI
-PCPI_CP_08_WT,"Postal Services and Telecommunication, Weight ",Bưu chính viễn thông,CPI
-PCPI_CP_10_WT,"Education, Weight ",Giáo dục,CPI
-PCPI_CP_09_WT,"Culture, Entertainment and Tourism, Weight","Văn hoá, giải trí và du lịch",CPI
-PCPI_CP_12_WT,"Other Consumer Goods and Services, Weight ",Đồ dùng và dịch vụ khác,CPI
-PCPICO_PC_PP_PT,Core CPI ( Y/Y % Change),Lạm phát cơ bản,CPI
-AIP_ISIC4_IX,Industry (2015=100),Chỉ số sản xuất công nghiệp,IND
-AIP_ISIC4_B_IX,Mining and Quarying (2015=100),Khai khoáng,IND
-AIP_ISIC4_C_IX,Manufacturing (2015=100),"Công nghiệp chế biến, chế tạo",IND
-AIP_ISIC4_D_IX,"Electricity, Gas (2015=100)","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",IND
-AIP_ISIC4_E_IX,"Water Supply: Sewerage, Waste Mgt/Remediation Activities(2015=100)","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",IND
-ENDE_MID_XDC_USD_RATE,"Reference Exchange Mid Rate: United States (EOP, Dong/US Dollar)",Tỷ giá cuối kỳ,EXR
-ENDA_MID_XDC_USD_RATE,"Reference Exchange Mid Rate: United States (AVG,Dong/US Dollar)",Tỷ giá trung bình,EXR
-LP_PE_NUM,Total Population ,Tổng dân số,POP
-LPM_PE_NUM,Male Population,Dân số Nam,POP
-LPF_PE_NUM,Female Population,Dân số Nữ,POP
-LPU_PE_NUM,Urban Population,Dân số Thành thị,POP
-LPR_PE_NUM,Rural Population,Dân số Nông thôn,POP
-VNM_LP_RRD_PE_NUM,Population: Red River Delta ,Đồng bằng sông Hồng,POP
-VNM_LP_NMM_PE_NUM,Population: North Midlands and Mountain ,Trung du và miền núi phía Bắc,POP
-VNM_LP_NCCC_PE_NUM,Population: North Central and Central Coast,Bắc Trung Bộ và DH miền Trung,POP
-VNM_LP_CH_PE_NUM,Population: Central Highlands ,Tây Nguyên,POP
-VNM_LP_SE_PE_NUM,Population: South East ,Đông Nam Bộ,POP
-VNM_LP_MRD_PE_NUM,Population: Mekong River Delta ,Đồng bằng sông Cửu Long,POP
-FID_PA,Discount Rate ,Lãi suất tái chiết khấu,INR
-FIR_PA,Refinancing Rate,Lãi suất tái cấp vốn,INR
-LLF_PE_NUM,Labor Force (Thousands),Tổng số (Nghìn người),LMI
-LLFM_PE_NUM,Labor Force: Male (Thousands),Nam (Nghìn người),LMI
-LLFF_PE_NUM,Labor Force: Female (Thousands),Nữ (Nghìn người),LMI
-LE_PE_NUM,Employment (Thousands),Tổng số (Nghìn người),LMI
-LEMTOT_PE_NUM,Employment: Male (Thousands),Nam (Nghìn người),LMI
-LEFTOT_PE_NUM,Employment: Female (Thousands),Nữ (Nghìn người),LMI
-LU_PE_NUM,Unemployed (Thousands),Tổng số (Nghìn người),LMI
-LUM_PE_NUM,Unemployed: Male (Thousands),Nam (Nghìn người),LMI
-LUF_PE_NUM,Unemployed: Female (Thousands),Nữ (Nghìn người),LMI
-LUR_PT,Unemployment Rate at working age,Tỷ lệ thất nghiệp của  lao động trong độ tuổi,LMI
-LUR15O_PT,Unemployment Rate of the youth aged 15-24,Tỷ lệ thất nghiệp của thanh niên từ 15 tuổi trở lên,LMI
-LEU_PT,Underemployment Rate at working age,Tỷ lệ thiếu việc làm của lao động trong độ tuổi (*),LMI
-LME_AVG_XDC,Average Monthly Earnings (Thousands. VND),Tiền lương/công bình quân tháng (Nghìn đồng),LMI
-LMEM_AVG_XDC,Average Monthly Earnings: Male(Thousands. VND),Nam (Nghìn đồng),LMI
-LMEF_AVG_XDC,Average Monthly Earnings: Female(Thousands. VND),Nữ (Nghìn đồng),LMI
-NGDP_PA_XDC,Nominal Gross Domestic Product ,Tổng sản phẩm trong nước theo giá hiện hành phân theo ngành kinh tế,NAG
-NGDPVA_ISIC4_A_XDC,"Agriculture, Forestry and Fishery ","Nông nghiệp, lâm nghiệp và thủy sản ",NAG
-NGDPVA_ISIC4_A01_XDC,Agriculture ,Nông nghiệp,NAG
-NGDPVA_ISIC4_A02_XDC,Forestry ,Lâm nghiệp,NAG
-NGDPVA_ISIC4_A03_XDC,Fishery ,Thủy sản,NAG
-VNM_NGDPVA_ISIC4_BTF_XDC,Industry and Construction ,Công nghiệp và xây dựng,NAG
-VNM_NGDPVA_ISIC4_BTE_XDC,Industry ,Công nghiệp,NAG
-NGDPVA_ISIC4_B_XDC,Mining and Quarrying,Khai khoáng,NAG
-NGDPVA_ISIC4_C_XDC,Manufacturing ,"Công nghiệp chế biến, chế tạo",NAG
-NGDPVA_ISIC4_D_XDC,"Production & supply of electricity, gas, hot water, steam and air-conditioning","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",NAG
-NGDPVA_ISIC4_E_XDC,"Water supply; sewerage, waste management and remediation activities","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",NAG
-NGDPVA_ISIC4_F_XDC,Construction ,Xây dựng,NAG
-VNM_NGDPVA_ISIC4_GTT_XDC,Services ,Dịch vụ,NAG
-NGDPVA_ISIC4_G_XDC,Vehicles and motorcycles,"Bán buôn bán lẻ, sửa chữa ô tô, mô tô, xe máy và xe có động cơ khác ",NAG
-NGDPVA_ISIC4_H_XDC,Transport and Storage,Vận tải kho bãi,NAG
-NGDPVA_ISIC4_I_XDC,Accommodation & catering services,Dịch vụ lưu trú và ăn uống,NAG
-NGDPVA_ISIC4_J_XDC,Information & Communication ,Thông tin và truyền thông,NAG
-NGDPVA_ISIC4_K_XDC,"Finance, Banking & Insurance ","Hoạt động tài chính, ngân hàng và bảo hiểm ",NAG
-NGDPVA_ISIC4_L_XDC,Real Estate Business ,Hoạt động kinh doanh bất động sản ,NAG
-NGDPVA_ISIC4_M_XDC,Scientific and Technical Specialty ,"Hoạt động chuyên môn, khoa học và công nghệ ",NAG
-NGDPVA_ISIC4_N_XDC,Administrative Activity and Supporting Service ,Hoạt động hành chính và dịch vụ hỗ trợ ,NAG
-NGDPVA_ISIC4_O_XDC,Public administration and defence; compulsory social security,"Hoạt động của Đảng cộng sản, tổ chức chính trị - xã hội,quản lý nhà nước, an ninh quốc phòng, bảo đảm xã hội bắt buộc ",NAG
-NGDPVA_ISIC4_P_XDC,Education and Training ,Giáo dục đào tạo ,NAG
-NGDPVA_ISIC4_Q_XDC,Health Care & Social Relief ,Y tế và hoạt động cứu trợ xã hội ,NAG
-NGDPVA_ISIC4_R_XDC,"Art, Games and Entertainment ","Nghệ thuật, vui chơi và giải trí ",NAG
-NGDPVA_ISIC4_S_XDC,Other service activities,Hoạt động dịch vụ khác ,NAG
-NGDPVA_ISIC4_T_XDC,Activities of households as employers; undifferentiated goods and services producing activities of households for own use,"Hoạt động làm thuê các công việc trong các hộ gia đình,sản xuất sản phẩm vật chất và dịch vụ tự tiêu dùng của hộ gia đình ",NAG
-NGDPTXS_XDC,Taxes less Subsidies on Products ,Thuế sản phẩm trừ trợ cấp sản phẩm ,NAG
-NGDP_R_PA_XDC,Real Gross Domestic Product,Tổng sản phẩm trong nước theo giá so sánh 2010,NAG
-NGDPVA_R_ISIC4_A_XDC,"Agriculture, Forestry and Fishery ","Nông nghiệp, lâm nghiệp và thủy sản ",NAG
-NGDPVA_R_ISIC4_A01_XDC,Agriculture ,Nông nghiệp,NAG
-NGDPVA_R_ISIC4_A02_XDC,Forestry ,Lâm nghiệp,NAG
-NGDPVA_R_ISIC4_A03_XDC,Fishery ,Thủy sản,NAG
-VNM_NGDPVA_R_ISIC4_BTF_XDC,Industry and Construction ,Công nghiệp và xây dựng,NAG
-VNM_NGDPVA_R_ISIC4_BTE_XDC,Industry ,Công nghiệp,NAG
-NGDPVA_R_ISIC4_B_XDC,Mining and Quarrying,Khai khoáng,NAG
-NGDPVA_R_ISIC4_C_XDC,Manufacturing ,"Công nghiệp chế biến, chế tạo",NAG
-NGDPVA_R_ISIC4_D_XDC,"Production & supply of electricity, gas, hot water, steam and air-conditioning","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",NAG
-NGDPVA_R_ISIC4_E_XDC,"Water supply; sewerage, waste management and remediation activities","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",NAG
-NGDPVA_R_ISIC4_F_XDC,Construction ,Xây dựng,NAG
-VNM_NGDPVA_R_ISIC4_GTT_XDC,Services ,Dịch vụ,NAG
-NGDPVA_R_ISIC4_G_XDC,Vehicles and motorcycles,"Bán buôn bán lẻ, sửa chữa ô tô, mô tô, xe máy và xe có động cơ khác ",NAG
-NGDPVA_R_ISIC4_H_XDC,Transport and Storage,Vận tải kho bãi,NAG
-NGDPVA_R_ISIC4_I_XDC,Accommodation & catering services,Dịch vụ lưu trú và ăn uống,NAG
-NGDPVA_R_ISIC4_J_XDC,Information & Communication ,Thông tin và truyền thông,NAG
-NGDPVA_R_ISIC4_K_XDC,"Finance, Banking & Insurance ","Hoạt động tài chính, ngân hàng và bảo hiểm ",NAG
-NGDPVA_R_ISIC4_L_XDC,Real Estate Business ,Hoạt động kinh doanh bất động sản ,NAG
-NGDPVA_R_ISIC4_M_XDC,Scientific and Technical Specialty ,"Hoạt động chuyên môn, khoa học và công nghệ ",NAG
-NGDPVA_R_ISIC4_N_XDC,Administrative Activity and Supporting Service ,Hoạt động hành chính và dịch vụ hỗ trợ ,NAG
-NGDPVA_R_ISIC4_O_XDC,Public administration and defence; compulsory social security,"Hoạt động của Đảng cộng sản, tổ chức chính trị - xã hội,quản lý nhà nước, an ninh quốc phòng, bảo đảm xã hội bắt buộc ",NAG
-NGDPVA_R_ISIC4_P_XDC,Education and Training ,Giáo dục đào tạo ,NAG
-NGDPVA_R_ISIC4_Q_XDC,Health Care & Social Relief ,Y tế và hoạt động cứu trợ xã hội ,NAG
-NGDPVA_R_ISIC4_R_XDC,"Art, Games and Entertainment ","Nghệ thuật, vui chơi và giải trí ",NAG
-NGDPVA_R_ISIC4_S_XDC,Other service activities,Hoạt động dịch vụ khác ,NAG
-NGDPVA_R_ISIC4_T_XDC,Activities of households as employers; undifferentiated goods and services producing activities of households for own use,"Hoạt động làm thuê các công việc trong các hộ gia đình,sản xuất sản phẩm vật chất và dịch vụ tự tiêu dùng của hộ gia đình ",NAG
-NGDPTXS_R_XDC,Taxes less Subsidies on Products ,Thuế sản phẩm trừ trợ cấp sản phẩm ,NAG
-VNM_BCA_BP6_USD,Current Account Balance ,Cán cân vãng lai,BOP6
-VNM_BXG_BP6_USD,Goods: Exports f.o.b,Hàng hóa: Xuất khẩu f.o.b,BOP7
-VNM_BMG_BP6_USD,Goods: Imports f.o.b,Hàng hóa: Nhập khẩu f.o.b,BOP8
-VNM_BG_BP6_USD,Goods (net),Hàng hóa (ròng),BOP9
-VNM_BXS_BP6_USD,Services: Exports,Dịch vụ: Xuất khẩu,BOP10
-VNM_BMS_BP6_USD,Services: Imports,Dịch vụ: Nhập khẩu,BOP11
-VNM_BS_BP6_USD,Services (net),Dịch vụ (ròng),BOP12
-VNM_BXIP_BP6_USD,Investment Income (Primary income): Receipts,Thu nhập đầu tư (Thu nhập sơ cấp): Thu,BOP13
-VNM_BMIP_BP6_USD,Investment Income (Primary income): Payments,Thu nhập đầu tư (Thu nhập sơ cấp): Chi,BOP14
-VNM_BIP_BP6_USD,Investment Income ( Primart income) (net),Thu nhập đầu tư (Thu nhập sơ cấp) (ròng),BOP15
-VNM_BXIS_BP6_USD,Transfers (Secondary Income): Receipts ,Chuyển giao vãng lai (Thu nhập thứ cấp): Thu,BOP16
-VNM_BMIS_BP6_USD,Transfers (Secondary Income): Payments ,Chuyển giao vãng lai (Thu nhập thứ cấp): Chi,BOP17
-VNM_BIS_BP6_USD,Transfers (Secondary Income) (net),Chuyển giao vãng lai (thu nhập thứ cấp) (ròng),BOP18
-VNM_BK_BP6_USD,Capital Account Balance ,Cán cân vốn,BOP19
-VNM_BK_CD_BP6_USD,Capital Account Receipts ,Cán cân vốn: Thu,BOP20
-VNM_BK_DB_BP6_USD,Capital Account Payments ,Cán cân vốn: Chi,BOP21
-VNM_BACK_BP6_USD,Net Current and Capital Account,Tổng cán cân vãng lai và cán cân vốn,BOP22
-VNM_BF_BP6_USD,Finacial Account Balance ,Cán cân tài chính,BOP23
-VNM_BFDA_BP6_USD,Direct investment Assets ,Đầu tư trực tiếp ra nước ngoài: Tài sản có,BOP24
-VNM_BFDL_BP6_USD,Direct investment Liabilities ,Đầu tư trực tiếp vào Việt Nam: Tài sản nợ,BOP25
-VNM_BFD_BP6_USD,Direct Investment (net),Đầu tư trực tiếp (ròng),BOP26
-VNM_BFPA_BP6_USD,Portfolio investment Assets ,Đầu tư gián tiếp ra nước ngoài: Tài sản có,BOP27
-VNM_BFPL_BP6_USD,Portfolio investment Liabilities ,Đầu tư gián tiếp vào Việt Nam: Tài sản nợ,BOP28
-VNM_BFP_BP6_USD,Portfolio Investment (net),Đẩu tư gián tiếp (ròng),BOP29
-VNM_BFOA_BP6_USD,Other Investment: Assets ,Đầu tư khác: Tài sản có,BOP30
-VNM_BFOCDA_BP6_USD,Money and Deposits ,Tiền và tiền gửi,BOP31
-VNM_BFOCDADC_BP6_USD,Banks,Tổ chức tín dụng,BOP32
-VNM_BFOCDAO_BP6_USD,Other sectors ,Dân cư,BOP33
-VNM_BFOLNA_BP6_USD,Loans ,"Vay, trả nợ nước ngoài",BOP34
-VNM_BFOTA_BP6_USD,Trade Credit and Advances,Tín dụng thương mại và ứng trước,BOP35
-VNM_BFORA_BP6_USD,Other Accounts Receivable/Payable ,"Các khoản phải thu, phải trả khác",BOP36
-VNM_BFOL_BP6_USD,Other Investment: Liabilities ,Đầu tư khác: Tài sản nợ,BOP37
-VNM_BFOCDL_BP6_USD,Currency and Deposits ,Tiền và tiền gửi,BOP38
-VNM_BFOCDLDC_BP6_USD,Banks,Tổ chức tín dụng,BOP39
-VNM_BFOCDLO_BP6_USD,Other sectors ,Dân cư,BOP40
-VNM_BFOLNL_BP6_USD,Loans ,"Vay, trả nợ nước ngoài",BOP41
-VNM_BFOLNLO_S_BP6_USD,Short Term ,Ngắn hạn,BOP42
-VNM_BFOLNLOD_S_BP6_USD,Disbursements ,Rút vốn,BOP43
-VNM_BFOLNLOSA_S_BP6_USD,Scheduled Amortization ,Trả nợ gốc,BOP44
-VNM_BFOLNLO_MLT_BP6_USD, Medium and Long Term ,Dài hạn,BOP45
-VNM_BFOLNLOD_MLT_BP6_USD,Disbursements ,Rút vốn,BOP46
-VNM_BFOLNLGD_MLT_BP6_USD,Governent ,Chính phủ,BOP47
-VNM_BFOLNLOOD_MLT_BP6_USD,Other sectors ,Tư nhân,BOP48
-VNM_BFOLNLOSA_MLT_BP6_USD,Scheduled Amortization ,Trả nợ gốc,BOP49
-VNM_BFOLNLGSA_MLT_BP6_USD,Governent ,Chính phủ,BOP50
-VNM_BFOLNLOOSA_MLT_BP6_USD,Other sectors ,Tư nhân,BOP51
-VNM_BFOTL_BP6_USD,Trade Credit and Advances,Tín dụng thương mại và ứng trước,BOP52
-VNM_BFORPL_BP6_USD,Other Accounts Receivable/Payable ,"Các khoản phải thu, phải trả khác",BOP53
-VNM_BFO_BP6_USD,Other Investmen (net),Đầu tư khác (ròng),BOP54
-VNM_BOP_BP6_USD,Net Errors & Omissions ,Lỗi và sai sót,BOP55
-VNM_BO_BP6_USD,Overall balance ,Cán cân tổng thể,BOP56
-VNM_BFRA_BP6_USD,Reserve & Related Items ,Dự  trữ và các hạng mục liên quan,BOP57
-VNM_BFRAO_BP6_USD,Reserve assets ,Tài sản dự trữ,BOP58
-VNM_BFRAIMF_BP6_USD,Credit & Loans from IMF ,Tín dụng và vay nợ từ IMF,BOP59
-VNM_BEF_BP6_USD,Exceptional Finacing ,Tài trợ đặc biệt,BOP60
-TB_USD,"Merchandise Trade Balance (NSA, Mil.US$)",Cán cân thương mại hàng hóa,MET
-TXGBD_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET
-TMG_CIF_USD,"Imports (NSA, Mil.US$)",Nhập khẩu,MET
-TXG_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET
-VNM_TXG_FS_FOB_USD,"Exports: Domestic Economic Sector (NSA, Mil.US$)",Khu vực kinh tế trong nước,MET
-TXG_FS_FOB_USD,"Exports: Foreign Investment Sector (NSA, Mil.US$) (Including Crude oil)",Khu vực có vốn đầu tư trực tiếp nước ngoài,MET
-TXGFP_FOB_USD,"Exports: Fishery Products (NSA, Mil.US$) ",Hàng thuỷ sản,MET
-VNM_TXGFR_TXGVEG_FOB_USD,"Exports: Vegetables and Fruits (NSA, Mil.US$)","Hàng rau, hoa, quả",MET
-TXGCN_FOB_USD,"Exports: Cashew Nuts (NSA, Mil.US$)",Hạt điều nhân,MET
-TXGCOF_FOB_USD,"Exports: Coffee (NSA, Mil.US$)",Cà phê,MET
-TXGTEA_FOB_USD,"Exports: Tea (NSA, Mil.US$)",Chè,MET
-TXGPEP_FOB_USD,"Exports: Pepper (NSA, Mil.US$)",Hạt tiêu,MET
-TXGRIN_FOB_USD,"Exports: Rice (NSA, Mil.US$)",Gạo,MET
-TXGCAS_FOB_USD,"Exports: Manioc and Manioc products (NSA, Mil.US$) ",Sắn và sản phẩm từ sắn,MET
-VNM_TXGSWTS_FOB_USD,"Exports: Pastrycooks/Sweets/Cereals (NSA, Mil.US$)",Bánh kẹo và các sản phẩm từ ngũ cốc,MET
-TXGANF_FOB_USD,"Exports: Animal Fodders & Materials (NSA, Mil.US$)",Thức ăn gia súc và nguyên liệu,MET
-TXGOMP_FOB_USD,"Exports: Ores & Other Mineral Products (NSA, Mil.US$)",Quặng và khoáng sản khác,MET
-VNM_TXGCK_TXGCEM_FOB_USD,"Exports: Clinker & Cement (NSA, Mil.US$) ", Clanhke và xi măng,MET
-TXGCL_FOB_USD,"Exports: Coal (NSA, Mil.US$)",Than đá,MET
-TXGOC_FOB_USD,"Exports: Crude Oil (NSA, Mil.US$)",Dầu thô,MET
-TXGPETP_FOB_USD,"Exports: Petroleum Products (NSA, Mil.US$)",Xăng dầu,MET
-TXGIOC_FOB_USD,"Exports: Chemicals (NSA, Mil.US$)Hoá chất",Hóa chất,MET
-TXGCP_FOB_USD,"Exports: Chemical Products (NSA, Mil.US$)",SP hóa chất,MET
-TXGFT+C40_FOB_USD,"Exports: Fertilizers (NSA, Mil.US$)",Phân bón các loại,MET
-TXGPLST_FOB_USD,"Exports: Plastics (NSA, Mil.US$)",Chất dẻo nguyên liệu,MET
-TXGPP_FOB_USD,"Exports: Plastic Products (NSA, Mil.US$)",Sản phẩm chất dẻo,MET
-TXGRUB_FOB_USD,"Exports: Rubber (NSA, Mil.US$)",Cao su,MET
-TXGRUBP_FOB_USD,"Exports: Rubber Products (NSA, Mil.US$)",Sản phẩm từ cao su,MET
-VNM_TXGHPSU_FOB_USD,"Exports: Handbags, Purses, Suitcases & Umbrellas (NSA, Mil.US$)","Túi xách, ví, va li, mũ, ô dù",MET
-VNM_TXGBRP_FOB_USD,"Exports: Bamboo and Rattan Products (NSA, Mil.US$) and carpet ","Sản phẩm mây tre, cói, thảm",MET
-TXGWWP_FOB_USD,"Exports: Wood & Wooden Products (NSA, Mil.US$)",Gỗ và sản phẩm gỗ,MET
-VNM_TXGPA_TXGPAP_FOB_USD,"Exports: Paper & Paper Products (NSA, Mil.US$)",Giấy và các sản phẩm từ giấy,MET
-TXGYARN_FOB_USD,"Exports: Yarn (NSA, Mil.US$) ","Xơ, sợi dệt các loại",MET
-TXGIOT_FOB_USD,"Exports: Textiles and Garments (NSA, Mil.US$) ","Hàng dệt, may",MET
-VNM_TXGTCF_FOB_USD,"Exports: Tyre Cord Fabric & Other Fabric (NSA, Mil.US$)","Vải mành, vải kỹ thuật khác",MET
-TXGFW_FOB_USD,"Exports: Footwear (NSA, Mil.US$)",Giày dép,MET
-VNM_TXGTLF_FOB_USD,"Exports: Textiles/Leather/Footwear Materials (NSA, Mil.US$)","Nguyên phụ liệu dệt, may, da, giày",MET
-TXGCER_FOB_USD,"Exports: Ceramic Products (NSA, Mil.US$)",Sản phẩm gốm sứ,MET
-TXGGLS_FOB_USD,"Exports: Glass & Glassware (NSA, Mil.US$)",Thủy tinh và các sản phẩm từ thủy tinh,MET
-VNM_TXGPM_TXGPSO_FOB_USD,"Exports: Precious Stones/Precious Metal & Articles (NSA, Mil.US$)","Đá quý, KL quý và sản phẩm",MET
-TXGIS_FOB_USD,"Exports: Iron & Steel (NSA, Mil.US$) ",Sắt thép,MET
-TXGISP_FOB_USD,"Exports: Iron & Steel Products (NSA, Mil.US$)",Sản phẩm từ sắt thép,MET
-TXGISO_FOB_USD,"Exports: Other Base Metals & Products (NSA, Mil.US$) ",Kim loại thường khác và sản phẩm,MET
-VNM_TXGECP_CIF_USD,"Exports: Computers, Electric Products & Parts (NSA, Mil.US$)","Điện tử, máy tính và LK",MET
-TXGCPH_FOB_USD,"Exports: Telephones, Mobile Phones & Spare Parts (NSA, Mil.US$)",Điện thoại các loại và linh kiện,MET
-TXGSVC_CIF_USD,"Exports: Still Image & VDO Cameras (NSA, Mil.US$)","Máy ảnh, máy quay phim và linh kiện",MET
-TXGKTM_FOB_USD,"Exports: Machines/Equipments/Tools/Instruments (NSA, Mil.US$)","Máy móc, thiết bị, DC, PT khác",MET
-TXGIWC_FOB_USD,"Exports: Insulated Wires and Cables (NSA, Mil.US$) ",Dây điện và cáp điện,MET
-VNM_TXGTSP_FOB_USD,"Exports: Other Means of Transportation & Spare Parts (NSA, Mil.US$)",Phương tiện vận tải và phụ tùng,MET
-VNM_TXGFXW_FOB_USD,"Exports: Furniture exclude Wood (NSA, Mil.US$)",Sản phẩm nội thất từ chất liệu khác,MET
-VNM_TXGTS_FOB_USD,"Exports: Toys/Sports Req Part/Access (NSA, Mil.US$)","Đồ chơi, dụng cụ thể thao và bộ phận",MET
-TXGOTHER_FOB_USD,"Exports: Other Products (NSA, Mil.US$)",Sản phẩm khác,MET
-TMG_CIF_USD,"Imports (NSA, Mil.US$)",Nhập khẩu,MET
-TMG_DS_CIF_USD,"Imports: Domestic Economic Sector (NSA, Mil.US$)",Khu vực kinh tế trong nước,MET
-TMG_FS_CIF_USD,"Imports: Foreign Investment Sector (NSA, Mil.US$)",Khu vực có vốn đầu tư trực tiếp nước ngoài,MET
-TMGFP_CIF_USD,"Imports: Fishery Products (NSA, Mil.US$) ",Thủy sản,MET
-TMGMC_CIF_USD,"Imports: Dairy Products (NSA, Mil.US$)",Sữa và sản phẩm sữa,MET
-VNM_TMGFR_TMGVEG_CIF_USD,"Imports: Fruits and Vegetables (NSA, Mil.US$)",Rau quả,MET
-TMGCN_CIF_USD,"Imports: Cashew Nuts (NSA, Mil.US$)",Hạt điều,MET
-TMGWHE_CIF_USD,"Imports: Wheat (NSA, Mil.US$)",Lúa mỳ,MET
-TMGMAIZ_CIF_USD,"Imports: Maize (NSA, Mil.US$)",Ngô,MET
-TMGSOYB_CIF_USD,"Imports: Soy Beans (NSA, Mil.US$)",Đậu tương,MET
-TMGAVFO_CIF_USD,"Imports: Animal, Vegetable Fats & Oils (NSA, Mil.US$) ",Dầu mỡ động thực vật,MET
-VNM_TMGSWTS_CIF_USD,"Imports: Patrycooks/Sweets/Cereals (NSA, Mil.US$) ",Bánh kẹo và các sản phẩm từ ngũ cốc,MET
-VNM_TMGEFP_CIF_USD,"Imports: Other Edible Food Preparation (NSA, Mil.US$) ",Chế phẩm thực phẩm khác,MET
-TMGANF_CIF_USD,"Imports: Animal Fodders & Materials (NSA, Mil.US$) ",Thức ăn gia súc và NPL,MET
-TMGTOB_CIF_USD,"Imports: Tobacco Materials (NSA, Mil.US$)",Nguyên phụ liệu thuốc lá,MET
-TMGOMP_CIF_USD,"Imports: Ores & Other Mineral Products (NSA, Mil.US$) ",Quặng và khoáng sản khác,MET
-TMGCL_CIF_USD,"Imports: Coal (NSA, Mil.US$)",Than đá,MET
-TMGOC_CIF_USD,"Imports: Crude Oil (NSA, Mil.US$) ",Dầu thô,MET
-TMGPETP_CIF_USD,"Imports: Petroleum Products (NSA, Mil.US$) ",Xăng dầu ,MET
-TMGLPG_CIF_USD,"Imports: Liquefied Petroleum Gases [LPG] (NSA, Mil.US$)",Khí đốt hóa lỏng,MET
-VNM_TMGPETP_OTHER_CIF_USD,"Imports: Other Petroleum Products (NSA, Mil.US$) ",Sản phẩm khác từ dầu mỏ,MET
-TMGIOC_CIF_USD,"Imports: Chemicals (NSA, Mil.US$)",Hóa chất ,MET
-TMGCP_CIF_USD,"Imports: Chemical Products (NSA, Mil.US$)",Sản phẩm hoá chất,MET
-TMGPHAM_CIF_USD,"Imports: Pharmaceutical Materials (NSA, Mil.US$) ",Nguyên phụ liệu dược phẩm,MET
-TMGPHA_CIF_USD,"Imports: Pharmaceutical Products (NSA, Mil.US$) ",Tân dược,MET
-TMGFT_CIF_USD,"Imports: Fertilizers (NSA, Mil.US$) ",Phân bón ,MET
-VNM_TMGEPT_CIF_USD,"Imports: Essential Oil/Perfume/Toiletries (NSA, Mil.US$)","Chất thơm, mỹ phẩm và chế phẩm vệ sinh",MET
-VNM_TMGIRM_CIF_USD,"Imports: Insecticides, Rodenticides & Materials (NSA, Mil.US$) ",Thuốc trừ sâu ,MET
-TMGPLST_CIF_USD,"Imports: Plastics (NSA, Mil.US$)",Chất dẻo ,MET
-TMGPLSTP_CIF_USD,"Imports: Plastic Products (NSA, Mil.US$)",Sản phẩm chất dẻo,MET
-TMGRUB_CIF_USD,"Imports: Rubber (NSA, Mil.US$)",Cao su,MET
-TMGRUBP_CIF_USD,"Imports: Rubber Products (NSA, Mil.US$)",Sản phẩm từ cao su,MET
-TMGWWP_CIF_USD,"Imports: Wood and Wooden Products (NSA, Mil.US$)",Gỗ và sản phẩm gỗ,MET
-TMGPPA_CIF_USD,Imports: Paper (NAS.Mil.US$) ,Giấy các loại,MET
-TMGPAP_CIF_USD,"Imports: Paper Products (NSA, Mil.US$) ",Sản phẩm từ giấy,MET
-TMGCOT_CIF_USD,"Imports: Cotton (NSA, Mil.US$)",Bông ,MET
-TMGYARN_CIF_USD,"Imports: Yarn (NSA, Mil.US$)",Sợi dệt ,MET
-TMGIOT_CIF_USD,"Imports: Fabrics (NSA, Mil.US$)",Vải,MET
-VNM_TMGTLFA_CIF_USD,"Imports: Textiles/Leather/Footwear/Auxiliaries (NSA, Mil.US$)","Nguyên PL dệt, may, giày dép",MET
-TMGGLS_CIF_USD,"Imports: Glass & Glassware (NSA, Mil.US$)",Thủy tinh và các sản phẩm từ thủy tinh,MET
-VNM_TMGPM_TMGPSO_CIF_USD,"Imports: Precious Stones & Metal (NSA, Mil.US$)","Đá quý, KL quý và sản phẩm",MET
-TMGFWS_CIF_USD,"Imports: Ferrous Waste & Scrap (NSA, Mil.US$) ",Phế liệu sắt thép,MET
-TMGIS_CIF_USD,"Imports: Iron & Steel (NSA, Mil.US$) ",Sắt thép ,MET
-TMGISP_CIF_USD,"Imports: Iron & Steel Products (NSA, Mil.US$)",Sản phẩm từ sắt thép,MET
-VNM_TMGISOB_CIF_USD,"Imports: Other Base Metals (NSA, Mil.US$)",Kim loại thường khác,MET
-TMGISO_CIF_USD,"Imports: Other Base Metal Products (NSA, Mil.US$)",Sản phẩm từ kim loại thường khác,MET
-VNM_TMGECP_CIF_USD,"Imports: Electronic, Computer and Spare Parts (NSA, Mil.US$)","Điện tử, máy tính và LK",MET
-VNM_TMGEPP_CIF_USD,"Imports: Electric Consumer Prods & Parts (NSA, Mil.US$)",Hàng điện gia dụng và linh kiện,MET
-TMGCPH_CIF_USD,"Imports: Telephones/Mobile Phones & Spare Parts (NSA, Mil.US$)",Điện thoại các loại và linh kiện,MET
-TMGSVC_CIF_USD,"Imports: Still Image/Video Cameras (NSA, Mil.US$) ","Máy ảnh, máy quay phim và linh kiện",MET
-TMGKTM_CIF_USD,"Imports: Machines/Equipments/Tools/Instruments (NSA, Mil.US$) ","Máy móc, thiết bị, DC, PT khác",MET
-TMGIWC_CIF_USD,"Imports: Insulated Wires & Cables (NSA, Mil.US$) ",Dây điện và cáp điện,MET
-TMGCM_CIF_USD,"Imports: Automobiles (NSA, Mil.US$)",Ô tô ,MET
-VNM_TMGMCP_CIF_USD,"Imports: Motorcycles & Spare Parts (NSA, Mil.US$)","Xe máy và linh kiện, phụ tùng",MET
-VNM_TMGTRSP_CIF_USD,"Imports: Other Means of Transport and Parts (NSA, Mil.US$)",Phương tiện vận tải khác và PT,MET
-TMGOTHER_CIF_USD,"Imports: Other Products (NSA, Mil.US$)",Sản phẩm khác,MET
-VNM_EXD_D_XDC,DEBT OUTSTANDING (1),DƯ NỢ (1),EXD
-VNM_EXD_GD_XDC,Government extenal debt,Nợ nước ngoài của chính phủ ,EXD
-VNM_EXD_PD_XDC,Enterprises External debt,Nợ nước ngoài của doanh nghiệp ,EXD
-VNM_EXD_DD_XDC,DISBURSEMENT (2),RÚT VỐN TRONG KỲ (2),EXD
-VNM_EXD_GDD_XDC,Government extenal debt,Nợ nước ngoài của chính phủ,EXD
-VNM_EXD_PDD_XDC,Enterprises External debt,Nợ nước ngoài của doanh nghiệp ,EXD
-VNM_EXD_DDS_XDC,DEBT SERVICE PAYMENT (2),TỔNG TRẢ NỢ TRONG KỲ (2) ,EXD
-VNM_EXD_GDDS_XDC,Government extenal debt,Nợ nước ngoài của chính phủ,EXD
-VNM_EXD_PDDS_XDC,Enterprises External debt,Nợ nước ngoài của doanh nghiệp,EXD
-VNM_EXD_DDSPP_XDC,Principal payment,     Tổng trả nợ gốc trong kỳ ,EXD
-VNM_EXD_GDDSPP_XDC,Government extenal debt,       Nợ nước ngoài của chính phủ ,EXD
-VNM_EXD_PDDSPP_XDC,Enterprises External debt,       Nợ nước ngoài của doanh nghiệp ,EXD
-VNM_EXD_DDSIP_XDC,Interest and Commissions payment,    Tổng trả lãi và phí trong kỳ ,EXD
-VNM_EXD_GDDSIP_XDC,Government extenal debt,       Nợ nước ngoài của chính phủ ,EXD
-VNM_EXD_PDDSIP_XDC,Enterprises External debt,       Nợ nước ngoài của doanh nghiệp,EXD
-VNM_GGO_GGBNGDP_XDC,GDP,GDP,MOF
-VNM_GGO_GGBRG_XDC,State budget revenues and grants,Thu NSNN và viện trợ,MOF
-VNM_GGO_GGBRTF_XDC,Taxes and Fees,Thu từ thuế và phí,MOF
-VNM_GGO_GGBRCAPR_XDC,Capital revenues,Thu về vốn ,MOF
-VNM_GGO_GGBRGG_XDC,Grants,Thu viện trợ không hoàn lại,MOF
-VNM_GGO_GGBE_XDC,Total State expenditures,Tổng chi ngân sách nhà nước,MOF
-VNM_GGO_GGBEID_XDC,Investment and development expenditures,Chi đầu tư phát triển,MOF
-VNM_GGO_GGBECE_XDC,Current expenditures,Chi thường xuyên,MOF
-VNM_GGO_GGBOB_XDC,Overall Balance,Bội chi ngân sách,MOF
-VNM_GGO_GGBOB_GDP_PT,Overall Balance (% of GDP),Bội chi so với GDP (%),MOF
-VNM_GGO_GGBEPR_XDC,Principal repayment,Chi trả nợ gốc,MOF
-VNM_GGO_GGRG_XDC,State budget revenues and grants (I+II+III),Thu ngân sách nhà nước và viện trợ (I+II+III),MOF
-VNM_GGO_GGRGCR_XDC,Current revenues,Thu thường xuyên,MOF
-VNM_GGO_GGRT_XDC,Taxes,Thu thuế,MOF
-VNM_GGO_GGRTC_XDC,Corporate income tax,Thuế thu nhập doanh nghiệp,MOF
-VNM_GGO_GGRTP_XDC,Personal income tax,Thuế thu nhập cá nhân,MOF
-VNM_GGO_GGRTLH_XDC,Land and housing tax,Thuế sử dụng đất phi nông nghiệp,MOF
-VNM_GGO_GGRTR_XDC,Registration tax,Lệ phí trước bạ,MOF
-VNM_GGO_GGRTVAT_XDC,Value added tax,Thuế giá trị gia tăng ,MOF
-VNM_GGO_GGRTE_XDC,Excise tax,Thuế tiêu thụ đặc biệt,MOF
-VNM_GGO_GGRTNR_XDC,Natural resouces tax,Thuế tài nguyên,MOF
-VNM_GGO_GGRTA_XDC,Agricultural land-use tax,Thuế sử dụng đất nông nghiệp,MOF
-VNM_GGO_GGRTXMP_XDC,"Imp - Exp. tax, excise tax and environmental protection tax on Imports","Thuế xuất khẩu, nhập khẩu, TTĐB và BVMT hàng nhập khẩu",MOF
-VNM_GGO_GGRTEP_XDC,Environmental protection tax,Thuế bảo vệ môi trường,MOF
-VNM_GGO_GGRTL_XDC,Revenue from Loterry,Thu từ hoạt động xổ số kiến thiết,MOF
-VNM_GGO_GGRNT_XDC,"Fees, charges and non-tax","Thu phí, lệ phí và thu ngoài thuế",MOF
-VNM_GGO_GGRNTFC_XDC,Fees and charges (include gasoline fee),"Thu phí, lệ phí",MOF
-VNM_GGO_GGRNTLR_XDC,Land rents,Thu tiền cho thuê đất,MOF
-VNM_GGO_GGRNTM_XDC,Miscellaneous revenues,Các khoản thu khác,MOF
-VNM_GGO_GGRCAPR_XDC,"Capital revenues (revenues from sale of State - owned houses, land user right assignment)","Thu về vốn (thu bán nhà ở, thu tiền sử dụng đất)",MOF
-VNM_GGO_GGRGG_XDC,Grants,Viện trợ không hoàn lại,MOF
-VNM_GGO_GGE_XDC,Total state budget expenditures,Tổng chi NSNN ,MOF
-VNM_GGO_GGECE_XDC,Current expenditures,Chi thường xuyên,MOF
-VNM_GGO_GGECECU_XDC,Current expenditures,Chi hoạt động thường xuyên,MOF
-VNM_GGO_GGECESE_XDC,Education and training expenditures,"Chi giáo dục - đào tạo, dạy nghề",MOF
-VNM_GGO_GGECESST_XDC,Science technology expenditures,Chi khoa học công nghệ,MOF
-VNM_GGO_GGECEIP_XDC,Interest payment,Chi trả nợ lãi,MOF
-VNM_GGO_GGESR_XDC,Salary reform expenditures,Chi cải cách tiền lương,MOF
-VNM_GGO_GGEID_XDC,Investment and development expenditures,Chi đầu tư phát triển,MOF
-PPPI_ISIC4_A_BY_PP_IX,"Agricultural, Forestry & Fishing Products","Nông nghiệp, lâm nghiệp và thủy sản ",PPI
-PPPI_ISIC4_A01_BY_PP_IX,Agriculture Products,Nông nghiệp,PPI
-PPPI_ISIC4_A02_BY_PP_IX,Forestry Products,Lâm nghiệp,PPI
-PPPI_ISIC4_A03_BY_PP_IX,Fishing Products,Thủy sản,PPI
-VNM_PPPI_ISIC4_BTE_BY_PP_IX,Industrial Products,Công nghiệp,PPI
-PPPI_ISIC4_B_BY_PP_IX,Mining and Quarrying,Khai khoáng,PPI
-PPPI_ISIC4_C_BY_PP_IX,Manufacturing,"Công nghiệp chế biến, chế tạo",PPI
-PPPI_ISIC4_D_BY_PP_IX,"Production & supply of electricity, gas, hot water, steam and air-conditioning","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",PPI
-PPPI_ISIC4_E_BY_PP_IX,"Water supply; sewerage, waste management and remediation activities","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",PPI
-VNM_PPPI_ISIC4_HTJ_PTR_BY_PP_IX,Services,Dịch vụ,PPI
-PPPI_ISIC4_H_BY_PP_IX,Transportation and Storage,Vận tải kho bãi,PPI
-PPPI_ISIC4_I_BY_PP_IX,Accomodation and catering service,Dịch vụ lưu trú và ăn uống,PPI
-PPPI_ISIC4_J_BY_PP_IX,Information and Communication,Thông tin và truyền thông,PPI
-PPPI_ISIC4_P_BY_PP_IX,Education and Training,Giáo dục đào tạo ,PPI
-PPPI_ISIC4_Q_BY_PP_IX,Human Health and Social Work Activities,Y tế và hoạt động cứu trợ xã hội ,PPI
-PPPI_ISIC4_R_BY_PP_IX,"Arts, Entertainment & Recreation","Nghệ thuật, vui chơi và giải trí ",PPI
-VNM_VN_EOP_IX,VNI Value,Giá trị VNI index,SPI
-VNM_HNX_EOP_IX,HNX Value,Giá trị HNX index,SPI
-VNM_VN30_EOP_IX,VN30 Value,Giá trị VN30 index,SPI
-VNM_HNX30_EOP_IX,HNX30 Value,Giá trị HNX30 index,SPI
-VNM_VNX_EOP_IX,VNX Allshare,Giá trị VNX Allshare,SPI
+﻿indicator,desc,desc_vn,database,database_link,database_link_archive
+PCPI_IX,"Consumer Price Index, Index ",Chỉ số giá tiêu dùng,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_01_IX,"Food and Foodstuffs, Index ",Hàng ăn và dịch vụ ăn uống,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_011_IX,"Food, Index ",Lương thực,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+VNM_PCPI_CP_011FS_IX ,"Foodstuffs, Index ",Thực phẩm,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPIFFA_IX,"Food Consumption Outside Home, Index ",Ăn uống ngoài gia đình,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_02_IX,"Beverages and Cigarettes, Index ",Đồ uống và thuốc lá,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_03_IX,"Garments, Footwear and Hats, Index ","May mặc, mũ nón và giày dép ",CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_04_IX,"Housing and Material Construction including Electricity, Water and Fuel, Index ",Nhà ở và vật liệu xây dựng,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_05_IX,"Household Equipment and Goods, Index ",Thiết bị và đồ dùng gia đình,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_06_IX,"Medication and Health, Index ",Thuốc và dịch vụ y tế,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+VNM_PCPI_CP_062T063_IX,"Of which: Health Care, Index",    Trong đó: Dịch vụ y tế,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_07_IX,"Transport, Index ",Giao thông,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_08_IX,"Postal Services and Telecommunication, Index ",Bưu chính viễn thông,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_10_IX,"Education, Index ",Giáo dục,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+VNM_PCPI_CP_102T105_IX,"Of which: Educational Services, Index",    Trong đó: Dịch vụ giáo dục,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_09_IX,"Culture, Entertainment and Tourism, Index","Văn hoá, giải trí và du lịch",CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_12_IX,"Other Consumer Goods and Services, Index ",Đồ dùng và dịch vụ khác,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_WT,"Consumer Price Weight, Weight ",Tỷ trọng giá tiêu dùng,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_01_WT,"Food and Foodstuffs, Weight ",Hàng ăn và dịch vụ ăn uống,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_011_WT,"Food, Weight ",Lương thực,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+VNM_PCPI_CP_011FS_WT,"Foodstuffs, Weight ",Thực phẩm,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPIFFA_WT,"Food Consumption Outside Home, Weight ",Ăn uống ngoài gia đình,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_02_WT,"Beverages and Cigarettes, Weight ",Đồ uống và thuốc lá,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_03_WT,"Garments, Footwear and Hats, Weight ","May mặc, mũ nón và giày dép ",CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_04_WT,"Housing and Material Construction including Electricity, Water and Fuel, Weight ",Nhà ở và vật liệu xây dựng,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_05_WT,"Household Equipment and Goods, Weight ",Thiết bị và đồ dùng gia đình,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_06_WT,"Medication and Health, Weight ",Thuốc và dịch vụ y tế,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_07_WT,"Transport, Weight ",Giao thông,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_08_WT,"Postal Services and Telecommunication, Weight ",Bưu chính viễn thông,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_10_WT,"Education, Weight ",Giáo dục,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_09_WT,"Culture, Entertainment and Tourism, Weight","Văn hoá, giải trí và du lịch",CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPI_CP_12_WT,"Other Consumer Goods and Services, Weight ",Đồ dùng và dịch vụ khác,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+PCPICO_PC_PP_PT,Core CPI ( Y/Y % Change),Lạm phát cơ bản,CPI,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/CPIVNM.xml
+AIP_ISIC4_IX,Industry (2015=100),Chỉ số sản xuất công nghiệp,IND,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml,https://web.archive.org/web/20230325152851/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml
+AIP_ISIC4_B_IX,Mining and Quarying (2015=100),Khai khoáng,IND,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml,https://web.archive.org/web/20230325152851/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml
+AIP_ISIC4_C_IX,Manufacturing (2015=100),"Công nghiệp chế biến, chế tạo",IND,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml,https://web.archive.org/web/20230325152851/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml
+AIP_ISIC4_D_IX,"Electricity, Gas (2015=100)","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",IND,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml,https://web.archive.org/web/20230325152851/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml
+AIP_ISIC4_E_IX,"Water Supply: Sewerage, Waste Mgt/Remediation Activities(2015=100)","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",IND,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml,https://web.archive.org/web/20230325152851/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/IIPVNM.xml
+ENDE_MID_XDC_USD_RATE,"Reference Exchange Mid Rate: United States (EOP, Dong/US Dollar)",Tỷ giá cuối kỳ,EXR,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471014//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240612060032/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471014//idcPrimaryFile&revision=latestreleased
+ENDA_MID_XDC_USD_RATE,"Reference Exchange Mid Rate: United States (AVG,Dong/US Dollar)",Tỷ giá trung bình,EXR,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471014//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240612060032/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471014//idcPrimaryFile&revision=latestreleased
+LP_PE_NUM,Total Population ,Tổng dân số,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+LPM_PE_NUM,Male Population,Dân số Nam,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+LPF_PE_NUM,Female Population,Dân số Nữ,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+LPU_PE_NUM,Urban Population,Dân số Thành thị,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+LPR_PE_NUM,Rural Population,Dân số Nông thôn,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+VNM_LP_RRD_PE_NUM,Population: Red River Delta ,Đồng bằng sông Hồng,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+VNM_LP_NMM_PE_NUM,Population: North Midlands and Mountain ,Trung du và miền núi phía Bắc,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+VNM_LP_NCCC_PE_NUM,Population: North Central and Central Coast,Bắc Trung Bộ và DH miền Trung,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+VNM_LP_CH_PE_NUM,Population: Central Highlands ,Tây Nguyên,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+VNM_LP_SE_PE_NUM,Population: South East ,Đông Nam Bộ,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+VNM_LP_MRD_PE_NUM,Population: Mekong River Delta ,Đồng bằng sông Cửu Long,POP,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/POPVNM.xml
+FID_PA,Discount Rate ,Lãi suất tái chiết khấu,INR,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471011//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718180149/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471011//idcPrimaryFile&revision=latestreleased
+FIR_PA,Refinancing Rate,Lãi suất tái cấp vốn,INR,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471011//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718180149/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471011//idcPrimaryFile&revision=latestreleased
+LLF_PE_NUM,Labor Force (Thousands),Tổng số (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LLFM_PE_NUM,Labor Force: Male (Thousands),Nam (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LLFF_PE_NUM,Labor Force: Female (Thousands),Nữ (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LE_PE_NUM,Employment (Thousands),Tổng số (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LEMTOT_PE_NUM,Employment: Male (Thousands),Nam (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LEFTOT_PE_NUM,Employment: Female (Thousands),Nữ (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LU_PE_NUM,Unemployed (Thousands),Tổng số (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LUM_PE_NUM,Unemployed: Male (Thousands),Nam (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LUF_PE_NUM,Unemployed: Female (Thousands),Nữ (Nghìn người),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LUR_PT,Unemployment Rate at working age,Tỷ lệ thất nghiệp của  lao động trong độ tuổi,LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LUR15O_PT,Unemployment Rate of the youth aged 15-24,Tỷ lệ thất nghiệp của thanh niên từ 15 tuổi trở lên,LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LEU_PT,Underemployment Rate at working age,Tỷ lệ thiếu việc làm của lao động trong độ tuổi (*),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LME_AVG_XDC,Average Monthly Earnings (Thousands. VND),Tiền lương/công bình quân tháng (Nghìn đồng),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LMEM_AVG_XDC,Average Monthly Earnings: Male(Thousands. VND),Nam (Nghìn đồng),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+LMEF_AVG_XDC,Average Monthly Earnings: Female(Thousands. VND),Nữ (Nghìn đồng),LMI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/LMIVNM.xml
+NGDP_PA_XDC,Nominal Gross Domestic Product ,Tổng sản phẩm trong nước theo giá hiện hành phân theo ngành kinh tế,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_A_XDC,"Agriculture, Forestry and Fishery ","Nông nghiệp, lâm nghiệp và thủy sản ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_A01_XDC,Agriculture ,Nông nghiệp,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_A02_XDC,Forestry ,Lâm nghiệp,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_A03_XDC,Fishery ,Thủy sản,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_NGDPVA_ISIC4_BTF_XDC,Industry and Construction ,Công nghiệp và xây dựng,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_NGDPVA_ISIC4_BTE_XDC,Industry ,Công nghiệp,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_B_XDC,Mining and Quarrying,Khai khoáng,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_C_XDC,Manufacturing ,"Công nghiệp chế biến, chế tạo",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_D_XDC,"Production & supply of electricity, gas, hot water, steam and air-conditioning","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_E_XDC,"Water supply; sewerage, waste management and remediation activities","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_F_XDC,Construction ,Xây dựng,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_NGDPVA_ISIC4_GTT_XDC,Services ,Dịch vụ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_G_XDC,Vehicles and motorcycles,"Bán buôn bán lẻ, sửa chữa ô tô, mô tô, xe máy và xe có động cơ khác ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_H_XDC,Transport and Storage,Vận tải kho bãi,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_I_XDC,Accommodation & catering services,Dịch vụ lưu trú và ăn uống,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_J_XDC,Information & Communication ,Thông tin và truyền thông,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_K_XDC,"Finance, Banking & Insurance ","Hoạt động tài chính, ngân hàng và bảo hiểm ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_L_XDC,Real Estate Business ,Hoạt động kinh doanh bất động sản ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_M_XDC,Scientific and Technical Specialty ,"Hoạt động chuyên môn, khoa học và công nghệ ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_N_XDC,Administrative Activity and Supporting Service ,Hoạt động hành chính và dịch vụ hỗ trợ ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_O_XDC,Public administration and defence; compulsory social security,"Hoạt động của Đảng cộng sản, tổ chức chính trị - xã hội,quản lý nhà nước, an ninh quốc phòng, bảo đảm xã hội bắt buộc ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_P_XDC,Education and Training ,Giáo dục đào tạo ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_Q_XDC,Health Care & Social Relief ,Y tế và hoạt động cứu trợ xã hội ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_R_XDC,"Art, Games and Entertainment ","Nghệ thuật, vui chơi và giải trí ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_S_XDC,Other service activities,Hoạt động dịch vụ khác ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_ISIC4_T_XDC,Activities of households as employers; undifferentiated goods and services producing activities of households for own use,"Hoạt động làm thuê các công việc trong các hộ gia đình,sản xuất sản phẩm vật chất và dịch vụ tự tiêu dùng của hộ gia đình ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPTXS_XDC,Taxes less Subsidies on Products ,Thuế sản phẩm trừ trợ cấp sản phẩm ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDP_R_PA_XDC,Real Gross Domestic Product,Tổng sản phẩm trong nước theo giá so sánh 2010,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_A_XDC,"Agriculture, Forestry and Fishery ","Nông nghiệp, lâm nghiệp và thủy sản ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_A01_XDC,Agriculture ,Nông nghiệp,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_A02_XDC,Forestry ,Lâm nghiệp,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_A03_XDC,Fishery ,Thủy sản,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_NGDPVA_R_ISIC4_BTF_XDC,Industry and Construction ,Công nghiệp và xây dựng,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_NGDPVA_R_ISIC4_BTE_XDC,Industry ,Công nghiệp,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_B_XDC,Mining and Quarrying,Khai khoáng,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_C_XDC,Manufacturing ,"Công nghiệp chế biến, chế tạo",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_D_XDC,"Production & supply of electricity, gas, hot water, steam and air-conditioning","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_E_XDC,"Water supply; sewerage, waste management and remediation activities","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_F_XDC,Construction ,Xây dựng,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_NGDPVA_R_ISIC4_GTT_XDC,Services ,Dịch vụ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_G_XDC,Vehicles and motorcycles,"Bán buôn bán lẻ, sửa chữa ô tô, mô tô, xe máy và xe có động cơ khác ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_H_XDC,Transport and Storage,Vận tải kho bãi,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_I_XDC,Accommodation & catering services,Dịch vụ lưu trú và ăn uống,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_J_XDC,Information & Communication ,Thông tin và truyền thông,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_K_XDC,"Finance, Banking & Insurance ","Hoạt động tài chính, ngân hàng và bảo hiểm ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_L_XDC,Real Estate Business ,Hoạt động kinh doanh bất động sản ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_M_XDC,Scientific and Technical Specialty ,"Hoạt động chuyên môn, khoa học và công nghệ ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_N_XDC,Administrative Activity and Supporting Service ,Hoạt động hành chính và dịch vụ hỗ trợ ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_O_XDC,Public administration and defence; compulsory social security,"Hoạt động của Đảng cộng sản, tổ chức chính trị - xã hội,quản lý nhà nước, an ninh quốc phòng, bảo đảm xã hội bắt buộc ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_P_XDC,Education and Training ,Giáo dục đào tạo ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_Q_XDC,Health Care & Social Relief ,Y tế và hoạt động cứu trợ xã hội ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_R_XDC,"Art, Games and Entertainment ","Nghệ thuật, vui chơi và giải trí ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_S_XDC,Other service activities,Hoạt động dịch vụ khác ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPVA_R_ISIC4_T_XDC,Activities of households as employers; undifferentiated goods and services producing activities of households for own use,"Hoạt động làm thuê các công việc trong các hộ gia đình,sản xuất sản phẩm vật chất và dịch vụ tự tiêu dùng của hộ gia đình ",NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+NGDPTXS_R_XDC,Taxes less Subsidies on Products ,Thuế sản phẩm trừ trợ cấp sản phẩm ,NAG,http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/http://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+VNM_BCA_BP6_USD,Current Account Balance ,Cán cân vãng lai,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BXG_BP6_USD,Goods: Exports f.o.b,Hàng hóa: Xuất khẩu f.o.b,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BMG_BP6_USD,Goods: Imports f.o.b,Hàng hóa: Nhập khẩu f.o.b,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BG_BP6_USD,Goods (net),Hàng hóa (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BXS_BP6_USD,Services: Exports,Dịch vụ: Xuất khẩu,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BMS_BP6_USD,Services: Imports,Dịch vụ: Nhập khẩu,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BS_BP6_USD,Services (net),Dịch vụ (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BXIP_BP6_USD,Investment Income (Primary income): Receipts,Thu nhập đầu tư (Thu nhập sơ cấp): Thu,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BMIP_BP6_USD,Investment Income (Primary income): Payments,Thu nhập đầu tư (Thu nhập sơ cấp): Chi,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BIP_BP6_USD,Investment Income ( Primart income) (net),Thu nhập đầu tư (Thu nhập sơ cấp) (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BXIS_BP6_USD,Transfers (Secondary Income): Receipts ,Chuyển giao vãng lai (Thu nhập thứ cấp): Thu,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BMIS_BP6_USD,Transfers (Secondary Income): Payments ,Chuyển giao vãng lai (Thu nhập thứ cấp): Chi,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BIS_BP6_USD,Transfers (Secondary Income) (net),Chuyển giao vãng lai (thu nhập thứ cấp) (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BK_BP6_USD,Capital Account Balance ,Cán cân vốn,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BK_CD_BP6_USD,Capital Account Receipts ,Cán cân vốn: Thu,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BK_DB_BP6_USD,Capital Account Payments ,Cán cân vốn: Chi,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BACK_BP6_USD,Net Current and Capital Account,Tổng cán cân vãng lai và cán cân vốn,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BF_BP6_USD,Finacial Account Balance ,Cán cân tài chính,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFDA_BP6_USD,Direct investment Assets ,Đầu tư trực tiếp ra nước ngoài: Tài sản có,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFDL_BP6_USD,Direct investment Liabilities ,Đầu tư trực tiếp vào Việt Nam: Tài sản nợ,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFD_BP6_USD,Direct Investment (net),Đầu tư trực tiếp (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFPA_BP6_USD,Portfolio investment Assets ,Đầu tư gián tiếp ra nước ngoài: Tài sản có,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFPL_BP6_USD,Portfolio investment Liabilities ,Đầu tư gián tiếp vào Việt Nam: Tài sản nợ,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFP_BP6_USD,Portfolio Investment (net),Đẩu tư gián tiếp (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOA_BP6_USD,Other Investment: Assets ,Đầu tư khác: Tài sản có,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOCDA_BP6_USD,Money and Deposits ,Tiền và tiền gửi,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOCDADC_BP6_USD,Banks,Tổ chức tín dụng,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOCDAO_BP6_USD,Other sectors ,Dân cư,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNA_BP6_USD,Loans ,"Vay, trả nợ nước ngoài",BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOTA_BP6_USD,Trade Credit and Advances,Tín dụng thương mại và ứng trước,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFORA_BP6_USD,Other Accounts Receivable/Payable ,"Các khoản phải thu, phải trả khác",BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOL_BP6_USD,Other Investment: Liabilities ,Đầu tư khác: Tài sản nợ,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOCDL_BP6_USD,Currency and Deposits ,Tiền và tiền gửi,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOCDLDC_BP6_USD,Banks,Tổ chức tín dụng,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOCDLO_BP6_USD,Other sectors ,Dân cư,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNL_BP6_USD,Loans ,"Vay, trả nợ nước ngoài",BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLO_S_BP6_USD,Short Term ,Ngắn hạn,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLOD_S_BP6_USD,Disbursements ,Rút vốn,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLOSA_S_BP6_USD,Scheduled Amortization ,Trả nợ gốc,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLO_MLT_BP6_USD, Medium and Long Term ,Dài hạn,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLOD_MLT_BP6_USD,Disbursements ,Rút vốn,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLGD_MLT_BP6_USD,Governent ,Chính phủ,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLOOD_MLT_BP6_USD,Other sectors ,Tư nhân,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLOSA_MLT_BP6_USD,Scheduled Amortization ,Trả nợ gốc,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLGSA_MLT_BP6_USD,Governent ,Chính phủ,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOLNLOOSA_MLT_BP6_USD,Other sectors ,Tư nhân,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFOTL_BP6_USD,Trade Credit and Advances,Tín dụng thương mại và ứng trước,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFORPL_BP6_USD,Other Accounts Receivable/Payable ,"Các khoản phải thu, phải trả khác",BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFO_BP6_USD,Other Investmen (net),Đầu tư khác (ròng),BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BOP_BP6_USD,Net Errors & Omissions ,Lỗi và sai sót,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BO_BP6_USD,Overall balance ,Cán cân tổng thể,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFRA_BP6_USD,Reserve & Related Items ,Dự  trữ và các hạng mục liên quan,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFRAO_BP6_USD,Reserve assets ,Tài sản dự trữ,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BFRAIMF_BP6_USD,Credit & Loans from IMF ,Tín dụng và vay nợ từ IMF,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+VNM_BEF_BP6_USD,Exceptional Finacing ,Tài trợ đặc biệt,BOP,https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased,https://web.archive.org/web/20240718171104/https://sbv.gov.vn/webcenter/ShowProperty?nodeId=/UCMServer/SBV471017//idcPrimaryFile&revision=latestreleased
+TB_USD,"Merchandise Trade Balance (NSA, Mil.US$)",Cán cân thương mại hàng hóa,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGBD_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMG_CIF_USD,"Imports (NSA, Mil.US$)",Nhập khẩu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXG_FOB_USD,"Exports (NSA, Mil.US$)",Xuất khẩu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXG_FS_FOB_USD,"Exports: Domestic Economic Sector (NSA, Mil.US$)",Khu vực kinh tế trong nước,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXG_FS_FOB_USD,"Exports: Foreign Investment Sector (NSA, Mil.US$) (Including Crude oil)",Khu vực có vốn đầu tư trực tiếp nước ngoài,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGFP_FOB_USD,"Exports: Fishery Products (NSA, Mil.US$) ",Hàng thuỷ sản,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGFR_TXGVEG_FOB_USD,"Exports: Vegetables and Fruits (NSA, Mil.US$)","Hàng rau, hoa, quả",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCN_FOB_USD,"Exports: Cashew Nuts (NSA, Mil.US$)",Hạt điều nhân,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCOF_FOB_USD,"Exports: Coffee (NSA, Mil.US$)",Cà phê,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGTEA_FOB_USD,"Exports: Tea (NSA, Mil.US$)",Chè,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGPEP_FOB_USD,"Exports: Pepper (NSA, Mil.US$)",Hạt tiêu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGRIN_FOB_USD,"Exports: Rice (NSA, Mil.US$)",Gạo,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCAS_FOB_USD,"Exports: Manioc and Manioc products (NSA, Mil.US$) ",Sắn và sản phẩm từ sắn,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGSWTS_FOB_USD,"Exports: Pastrycooks/Sweets/Cereals (NSA, Mil.US$)",Bánh kẹo và các sản phẩm từ ngũ cốc,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGANF_FOB_USD,"Exports: Animal Fodders & Materials (NSA, Mil.US$)",Thức ăn gia súc và nguyên liệu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGOMP_FOB_USD,"Exports: Ores & Other Mineral Products (NSA, Mil.US$)",Quặng và khoáng sản khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGCK_TXGCEM_FOB_USD,"Exports: Clinker & Cement (NSA, Mil.US$) ", Clanhke và xi măng,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCL_FOB_USD,"Exports: Coal (NSA, Mil.US$)",Than đá,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGOC_FOB_USD,"Exports: Crude Oil (NSA, Mil.US$)",Dầu thô,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGPETP_FOB_USD,"Exports: Petroleum Products (NSA, Mil.US$)",Xăng dầu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGIOC_FOB_USD,"Exports: Chemicals (NSA, Mil.US$)Hoá chất",Hóa chất,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCP_FOB_USD,"Exports: Chemical Products (NSA, Mil.US$)",SP hóa chất,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGFT+C40_FOB_USD,"Exports: Fertilizers (NSA, Mil.US$)",Phân bón các loại,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGPLST_FOB_USD,"Exports: Plastics (NSA, Mil.US$)",Chất dẻo nguyên liệu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGPP_FOB_USD,"Exports: Plastic Products (NSA, Mil.US$)",Sản phẩm chất dẻo,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGRUB_FOB_USD,"Exports: Rubber (NSA, Mil.US$)",Cao su,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGRUBP_FOB_USD,"Exports: Rubber Products (NSA, Mil.US$)",Sản phẩm từ cao su,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGHPSU_FOB_USD,"Exports: Handbags, Purses, Suitcases & Umbrellas (NSA, Mil.US$)","Túi xách, ví, va li, mũ, ô dù",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGBRP_FOB_USD,"Exports: Bamboo and Rattan Products (NSA, Mil.US$) and carpet ","Sản phẩm mây tre, cói, thảm",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGWWP_FOB_USD,"Exports: Wood & Wooden Products (NSA, Mil.US$)",Gỗ và sản phẩm gỗ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGPA_TXGPAP_FOB_USD,"Exports: Paper & Paper Products (NSA, Mil.US$)",Giấy và các sản phẩm từ giấy,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGYARN_FOB_USD,"Exports: Yarn (NSA, Mil.US$) ","Xơ, sợi dệt các loại",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGIOT_FOB_USD,"Exports: Textiles and Garments (NSA, Mil.US$) ","Hàng dệt, may",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGTCF_FOB_USD,"Exports: Tyre Cord Fabric & Other Fabric (NSA, Mil.US$)","Vải mành, vải kỹ thuật khác",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGFW_FOB_USD,"Exports: Footwear (NSA, Mil.US$)",Giày dép,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGTLF_FOB_USD,"Exports: Textiles/Leather/Footwear Materials (NSA, Mil.US$)","Nguyên phụ liệu dệt, may, da, giày",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCER_FOB_USD,"Exports: Ceramic Products (NSA, Mil.US$)",Sản phẩm gốm sứ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGGLS_FOB_USD,"Exports: Glass & Glassware (NSA, Mil.US$)",Thủy tinh và các sản phẩm từ thủy tinh,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGPM_TXGPSO_FOB_USD,"Exports: Precious Stones/Precious Metal & Articles (NSA, Mil.US$)","Đá quý, KL quý và sản phẩm",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGIS_FOB_USD,"Exports: Iron & Steel (NSA, Mil.US$) ",Sắt thép,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGISP_FOB_USD,"Exports: Iron & Steel Products (NSA, Mil.US$)",Sản phẩm từ sắt thép,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGISO_FOB_USD,"Exports: Other Base Metals & Products (NSA, Mil.US$) ",Kim loại thường khác và sản phẩm,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGECP_CIF_USD,"Exports: Computers, Electric Products & Parts (NSA, Mil.US$)","Điện tử, máy tính và LK",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGCPH_FOB_USD,"Exports: Telephones, Mobile Phones & Spare Parts (NSA, Mil.US$)",Điện thoại các loại và linh kiện,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGSVC_CIF_USD,"Exports: Still Image & VDO Cameras (NSA, Mil.US$)","Máy ảnh, máy quay phim và linh kiện",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGKTM_FOB_USD,"Exports: Machines/Equipments/Tools/Instruments (NSA, Mil.US$)","Máy móc, thiết bị, DC, PT khác",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGIWC_FOB_USD,"Exports: Insulated Wires and Cables (NSA, Mil.US$) ",Dây điện và cáp điện,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGTSP_FOB_USD,"Exports: Other Means of Transportation & Spare Parts (NSA, Mil.US$)",Phương tiện vận tải và phụ tùng,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGFXW_FOB_USD,"Exports: Furniture exclude Wood (NSA, Mil.US$)",Sản phẩm nội thất từ chất liệu khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TXGTS_FOB_USD,"Exports: Toys/Sports Req Part/Access (NSA, Mil.US$)","Đồ chơi, dụng cụ thể thao và bộ phận",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TXGOTHER_FOB_USD,"Exports: Other Products (NSA, Mil.US$)",Sản phẩm khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMG_CIF_USD,"Imports (NSA, Mil.US$)",Nhập khẩu,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMG_DS_CIF_USD,"Imports: Domestic Economic Sector (NSA, Mil.US$)",Khu vực kinh tế trong nước,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMG_FS_CIF_USD,"Imports: Foreign Investment Sector (NSA, Mil.US$)",Khu vực có vốn đầu tư trực tiếp nước ngoài,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGFP_CIF_USD,"Imports: Fishery Products (NSA, Mil.US$) ",Thủy sản,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGMC_CIF_USD,"Imports: Dairy Products (NSA, Mil.US$)",Sữa và sản phẩm sữa,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGFR_TMGVEG_CIF_USD,"Imports: Fruits and Vegetables (NSA, Mil.US$)",Rau quả,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGCN_CIF_USD,"Imports: Cashew Nuts (NSA, Mil.US$)",Hạt điều,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGWHE_CIF_USD,"Imports: Wheat (NSA, Mil.US$)",Lúa mỳ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGMAIZ_CIF_USD,"Imports: Maize (NSA, Mil.US$)",Ngô,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGSOYB_CIF_USD,"Imports: Soy Beans (NSA, Mil.US$)",Đậu tương,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGAVFO_CIF_USD,"Imports: Animal, Vegetable Fats & Oils (NSA, Mil.US$) ",Dầu mỡ động thực vật,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGSWTS_CIF_USD,"Imports: Patrycooks/Sweets/Cereals (NSA, Mil.US$) ",Bánh kẹo và các sản phẩm từ ngũ cốc,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGEFP_CIF_USD,"Imports: Other Edible Food Preparation (NSA, Mil.US$) ",Chế phẩm thực phẩm khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGANF_CIF_USD,"Imports: Animal Fodders & Materials (NSA, Mil.US$) ",Thức ăn gia súc và NPL,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGTOB_CIF_USD,"Imports: Tobacco Materials (NSA, Mil.US$)",Nguyên phụ liệu thuốc lá,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGOMP_CIF_USD,"Imports: Ores & Other Mineral Products (NSA, Mil.US$) ",Quặng và khoáng sản khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGCL_CIF_USD,"Imports: Coal (NSA, Mil.US$)",Than đá,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGOC_CIF_USD,"Imports: Crude Oil (NSA, Mil.US$) ",Dầu thô,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPETP_CIF_USD,"Imports: Petroleum Products (NSA, Mil.US$) ",Xăng dầu ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGLPG_CIF_USD,"Imports: Liquefied Petroleum Gases [LPG] (NSA, Mil.US$)",Khí đốt hóa lỏng,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGPETP_OTHER_CIF_USD,"Imports: Other Petroleum Products (NSA, Mil.US$) ",Sản phẩm khác từ dầu mỏ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGIOC_CIF_USD,"Imports: Chemicals (NSA, Mil.US$)",Hóa chất ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGCP_CIF_USD,"Imports: Chemical Products (NSA, Mil.US$)",Sản phẩm hoá chất,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPHAM_CIF_USD,"Imports: Pharmaceutical Materials (NSA, Mil.US$) ",Nguyên phụ liệu dược phẩm,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPHA_CIF_USD,"Imports: Pharmaceutical Products (NSA, Mil.US$) ",Tân dược,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGFT_CIF_USD,"Imports: Fertilizers (NSA, Mil.US$) ",Phân bón ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGEPT_CIF_USD,"Imports: Essential Oil/Perfume/Toiletries (NSA, Mil.US$)","Chất thơm, mỹ phẩm và chế phẩm vệ sinh",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGIRM_CIF_USD,"Imports: Insecticides, Rodenticides & Materials (NSA, Mil.US$) ",Thuốc trừ sâu ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPLST_CIF_USD,"Imports: Plastics (NSA, Mil.US$)",Chất dẻo ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPLSTP_CIF_USD,"Imports: Plastic Products (NSA, Mil.US$)",Sản phẩm chất dẻo,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGRUB_CIF_USD,"Imports: Rubber (NSA, Mil.US$)",Cao su,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGRUBP_CIF_USD,"Imports: Rubber Products (NSA, Mil.US$)",Sản phẩm từ cao su,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGWWP_CIF_USD,"Imports: Wood and Wooden Products (NSA, Mil.US$)",Gỗ và sản phẩm gỗ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPPA_CIF_USD,Imports: Paper (NAS.Mil.US$) ,Giấy các loại,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGPAP_CIF_USD,"Imports: Paper Products (NSA, Mil.US$) ",Sản phẩm từ giấy,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGCOT_CIF_USD,"Imports: Cotton (NSA, Mil.US$)",Bông ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGYARN_CIF_USD,"Imports: Yarn (NSA, Mil.US$)",Sợi dệt ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGIOT_CIF_USD,"Imports: Fabrics (NSA, Mil.US$)",Vải,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGTLFA_CIF_USD,"Imports: Textiles/Leather/Footwear/Auxiliaries (NSA, Mil.US$)","Nguyên PL dệt, may, giày dép",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGGLS_CIF_USD,"Imports: Glass & Glassware (NSA, Mil.US$)",Thủy tinh và các sản phẩm từ thủy tinh,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGPM_TMGPSO_CIF_USD,"Imports: Precious Stones & Metal (NSA, Mil.US$)","Đá quý, KL quý và sản phẩm",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGFWS_CIF_USD,"Imports: Ferrous Waste & Scrap (NSA, Mil.US$) ",Phế liệu sắt thép,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGIS_CIF_USD,"Imports: Iron & Steel (NSA, Mil.US$) ",Sắt thép ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGISP_CIF_USD,"Imports: Iron & Steel Products (NSA, Mil.US$)",Sản phẩm từ sắt thép,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGISOB_CIF_USD,"Imports: Other Base Metals (NSA, Mil.US$)",Kim loại thường khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGISO_CIF_USD,"Imports: Other Base Metal Products (NSA, Mil.US$)",Sản phẩm từ kim loại thường khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGECP_CIF_USD,"Imports: Electronic, Computer and Spare Parts (NSA, Mil.US$)","Điện tử, máy tính và LK",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGEPP_CIF_USD,"Imports: Electric Consumer Prods & Parts (NSA, Mil.US$)",Hàng điện gia dụng và linh kiện,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGCPH_CIF_USD,"Imports: Telephones/Mobile Phones & Spare Parts (NSA, Mil.US$)",Điện thoại các loại và linh kiện,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGSVC_CIF_USD,"Imports: Still Image/Video Cameras (NSA, Mil.US$) ","Máy ảnh, máy quay phim và linh kiện",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGKTM_CIF_USD,"Imports: Machines/Equipments/Tools/Instruments (NSA, Mil.US$) ","Máy móc, thiết bị, DC, PT khác",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGIWC_CIF_USD,"Imports: Insulated Wires & Cables (NSA, Mil.US$) ",Dây điện và cáp điện,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGCM_CIF_USD,"Imports: Automobiles (NSA, Mil.US$)",Ô tô ,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGMCP_CIF_USD,"Imports: Motorcycles & Spare Parts (NSA, Mil.US$)","Xe máy và linh kiện, phụ tùng",MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_TMGTRSP_CIF_USD,"Imports: Other Means of Transport and Parts (NSA, Mil.US$)",Phương tiện vận tải khác và PT,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+TMGOTHER_CIF_USD,"Imports: Other Products (NSA, Mil.US$)",Sản phẩm khác,MET,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml,https://web.archive.org/web/20230325152837/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/METVNM.xml
+VNM_EXD_D_XDC,DEBT OUTSTANDING (1),DƯ NỢ (1),EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_GD_XDC,Government extenal debt,Nợ nước ngoài của chính phủ ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_PD_XDC,Enterprises External debt,Nợ nước ngoài của doanh nghiệp ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_DD_XDC,DISBURSEMENT (2),RÚT VỐN TRONG KỲ (2),EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_GDD_XDC,Government extenal debt,Nợ nước ngoài của chính phủ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_PDD_XDC,Enterprises External debt,Nợ nước ngoài của doanh nghiệp ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_DDS_XDC,DEBT SERVICE PAYMENT (2),TỔNG TRẢ NỢ TRONG KỲ (2) ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_GDDS_XDC,Government extenal debt,Nợ nước ngoài của chính phủ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_PDDS_XDC,Enterprises External debt,Nợ nước ngoài của doanh nghiệp,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_DDSPP_XDC,Principal payment,     Tổng trả nợ gốc trong kỳ ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_GDDSPP_XDC,Government extenal debt,       Nợ nước ngoài của chính phủ ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_PDDSPP_XDC,Enterprises External debt,       Nợ nước ngoài của doanh nghiệp ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_DDSIP_XDC,Interest and Commissions payment,    Tổng trả lãi và phí trong kỳ ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_GDDSIP_XDC,Government extenal debt,       Nợ nước ngoài của chính phủ ,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_EXD_PDDSIP_XDC,Enterprises External debt,       Nợ nước ngoài của doanh nghiệp,EXD,https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml,https://web.archive.org/web/20240518223934/https://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/15/Z_EXDVNM.xml
+VNM_GGO_GGBNGDP_XDC,GDP,GDP,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBRG_XDC,State budget revenues and grants,Thu NSNN và viện trợ,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBRTF_XDC,Taxes and Fees,Thu từ thuế và phí,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBRCAPR_XDC,Capital revenues,Thu về vốn ,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBRGG_XDC,Grants,Thu viện trợ không hoàn lại,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBE_XDC,Total State expenditures,Tổng chi ngân sách nhà nước,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBEID_XDC,Investment and development expenditures,Chi đầu tư phát triển,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBECE_XDC,Current expenditures,Chi thường xuyên,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBOB_XDC,Overall Balance,Bội chi ngân sách,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBOB_GDP_PT,Overall Balance (% of GDP),Bội chi so với GDP (%),MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGBEPR_XDC,Principal repayment,Chi trả nợ gốc,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRG_XDC,State budget revenues and grants (I+II+III),Thu ngân sách nhà nước và viện trợ (I+II+III),MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRGCR_XDC,Current revenues,Thu thường xuyên,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRT_XDC,Taxes,Thu thuế,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTC_XDC,Corporate income tax,Thuế thu nhập doanh nghiệp,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTP_XDC,Personal income tax,Thuế thu nhập cá nhân,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTLH_XDC,Land and housing tax,Thuế sử dụng đất phi nông nghiệp,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTR_XDC,Registration tax,Lệ phí trước bạ,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTVAT_XDC,Value added tax,Thuế giá trị gia tăng ,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTE_XDC,Excise tax,Thuế tiêu thụ đặc biệt,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTNR_XDC,Natural resouces tax,Thuế tài nguyên,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTA_XDC,Agricultural land-use tax,Thuế sử dụng đất nông nghiệp,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTXMP_XDC,"Imp - Exp. tax, excise tax and environmental protection tax on Imports","Thuế xuất khẩu, nhập khẩu, TTĐB và BVMT hàng nhập khẩu",MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTEP_XDC,Environmental protection tax,Thuế bảo vệ môi trường,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRTL_XDC,Revenue from Loterry,Thu từ hoạt động xổ số kiến thiết,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRNT_XDC,"Fees, charges and non-tax","Thu phí, lệ phí và thu ngoài thuế",MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRNTFC_XDC,Fees and charges (include gasoline fee),"Thu phí, lệ phí",MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRNTLR_XDC,Land rents,Thu tiền cho thuê đất,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRNTM_XDC,Miscellaneous revenues,Các khoản thu khác,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRCAPR_XDC,"Capital revenues (revenues from sale of State - owned houses, land user right assignment)","Thu về vốn (thu bán nhà ở, thu tiền sử dụng đất)",MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGRGG_XDC,Grants,Viện trợ không hoàn lại,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGE_XDC,Total state budget expenditures,Tổng chi NSNN ,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGECE_XDC,Current expenditures,Chi thường xuyên,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGECECU_XDC,Current expenditures,Chi hoạt động thường xuyên,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGECESE_XDC,Education and training expenditures,"Chi giáo dục - đào tạo, dạy nghề",MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGECESST_XDC,Science technology expenditures,Chi khoa học công nghệ,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGECEIP_XDC,Interest payment,Chi trả nợ lãi,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGESR_XDC,Salary reform expenditures,Chi cải cách tiền lương,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+VNM_GGO_GGEID_XDC,Investment and development expenditures,Chi đầu tư phát triển,MOF,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml,http://ckns.mof.gov.vn/Lists/GDDSManager/Attachments/19/MoF%20GGO_Vietnam.xml
+PPPI_ISIC4_A_BY_PP_IX,"Agricultural, Forestry & Fishing Products","Nông nghiệp, lâm nghiệp và thủy sản ",PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_A01_BY_PP_IX,Agriculture Products,Nông nghiệp,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_A02_BY_PP_IX,Forestry Products,Lâm nghiệp,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_A03_BY_PP_IX,Fishing Products,Thủy sản,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+VNM_PPPI_ISIC4_BTE_BY_PP_IX,Industrial Products,Công nghiệp,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_B_BY_PP_IX,Mining and Quarrying,Khai khoáng,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_C_BY_PP_IX,Manufacturing,"Công nghiệp chế biến, chế tạo",PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_D_BY_PP_IX,"Production & supply of electricity, gas, hot water, steam and air-conditioning","Sản xuất và phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí ",PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_E_BY_PP_IX,"Water supply; sewerage, waste management and remediation activities","Cung cấp nước, hoạt động quản lý và xử lý rác thải, nước thải ",PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+VNM_PPPI_ISIC4_HTJ_PTR_BY_PP_IX,Services,Dịch vụ,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_H_BY_PP_IX,Transportation and Storage,Vận tải kho bãi,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_I_BY_PP_IX,Accomodation and catering service,Dịch vụ lưu trú và ăn uống,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_J_BY_PP_IX,Information and Communication,Thông tin và truyền thông,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_P_BY_PP_IX,Education and Training,Giáo dục đào tạo ,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_Q_BY_PP_IX,Human Health and Social Work Activities,Y tế và hoạt động cứu trợ xã hội ,PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_R_BY_PP_IX,"Arts, Entertainment & Recreation","Nghệ thuật, vui chơi và giải trí ",PPI,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://web.archive.org/web/20230325152830/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+VNM_VN_EOP_IX,VNI Value,Giá trị VNI index,SPI,http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml
+VNM_HNX_EOP_IX,HNX Value,Giá trị HNX index,SPI,http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml
+VNM_VN30_EOP_IX,VN30 Value,Giá trị VN30 index,SPI,http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml
+VNM_HNX30_EOP_IX,HNX30 Value,Giá trị HNX30 index,SPI,http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml
+VNM_VNX_EOP_IX,VNX Allshare,Giá trị VNX Allshare,SPI,http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml,https://web.archive.org/web/20230325152957/http://nsdp.gso.gov.vn/GSO-chung/metadata/thao%202022/MOF%20SPI01.xml
