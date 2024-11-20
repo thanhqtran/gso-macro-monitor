@@ -13,9 +13,11 @@ With the data, you can make fancy figures.
 
 The archived links contain data until the end of 2023.
 
-## Vietnamese
+## Tiếng Việt
 
-Để tiện cho mục tiêu nghiên cứu, mình viết một số script trên Python để cho máy đọc dữ liệu từ Tổng cục thống kê GSO.
+Để tiện cho mục tiêu nghiên cứu, mình viết một số script trên Python để cho máy đọc dữ liệu chính thức từ Tổng cục thống kê GSO.
+
+Với CSDL này, chúng ta có thể vẽ các biểu đồ cơ bản hoặc ước lượng các mô hình vĩ mô.
 
 Hiện nay GSO có 13 CSDL kinh tế, chủ yếu quan tâm đến các dữ liệu vĩ mô theo quý.
 
