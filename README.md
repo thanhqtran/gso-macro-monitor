@@ -24,7 +24,7 @@ Hiện nay GSO có 13 CSDL kinh tế, chủ yếu quan tâm đến các dữ li�
 
 Những ai cần dùng có thể tải về toàn bộ data ở mục `Release`.
 
-Do link `SDMX` của GSO không ổn định, nhiều khi không truy cập được nên mình chỉ sử dụng các đường link sao lưu trên Internet Archive ở thời điểm gần nhất (2023/12/31). Riêng dữ liệu về Tài khoản quốc gia có từ 2010q1 đến 2023q2. Dữ liệu từ 2023q2 trở đi có thể truy cập thủ công ở các bảng tính ơExcel cung cấp bởi GSOư((http://nsdp.gso.gov.vn/index.htm)).
+Do link `SDMX` của GSO không ổn định, nhiều khi không truy cập được nên mình chỉ sử dụng các đường link sao lưu trên Internet Archive ở thời điểm gần nhất (2023/12/31). Riêng dữ liệu về Tài khoản quốc gia có từ 2010q1 đến 2023q2. Dữ liệu từ 2023q2 trở đi có thể truy cập thủ công ở các bảng tính [Excel cung cấp bởi GSO](http://nsdp.gso.gov.vn/index.htm).
 
 Trong tương lai, khi đường link chính ổn định hơn, mình sẽ update `Release` mới.
 
