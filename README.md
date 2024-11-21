@@ -10,7 +10,7 @@ With the data, you can make fancy figures.
 
 **Notes**: We used archived links for now since some of the links are not accessible in real-time.
 
-The archived links contain data until the end of 2023 (National Accounts data until 2023q2).
+Most archived links contain data until the end of 2023 (National Accounts data until 2023q2).
 
 Data since 2023q2 can be accessed in the [Excel sheets provided by GSO](http://nsdp.gso.gov.vn/index.htm).
 
