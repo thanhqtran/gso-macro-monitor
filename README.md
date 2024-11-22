@@ -14,6 +14,8 @@ Most archived links contain data until the end of 2023 (National Accounts data u
 
 Data since 2023q2 can be accessed in the [Excel sheets provided by GSO](http://nsdp.gso.gov.vn/index.htm).
 
+**UPDATE**: New data until 2024q3 are available now.
+
 ## Tiếng Việt
 
 Để tiện cho mục tiêu nghiên cứu, mình viết một số script trên Python để cho máy đọc dữ liệu chính thức từ Tổng cục thống kê GSO.
