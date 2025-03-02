@@ -1,11 +1,12 @@
 # Vietnam Macroeconomic Monitor
 
-This project aims at providing the most accurate and up-to-date data about the Vietnamese economy.
+This project aims to provide the most accurate and up-to-date data on the Vietnamese economy.
 
-With the data, you can make fancy figures.
+With the data, you can create fancy figures.
 
-- I scrape the data from GSO (stored in `.xml` format). In total, there are 13 databases.
-- I then extract the information from these databases and store them in one single `.json` file.
+Data retrieving procedure:
+- I scraped data from GSO (stored in `.xml` format). In total, there are 13 databases.
+- I then extracted the information from these databases and stored them in one single `.json` file.
 - To download, see `Release` on the right panel.
 
 **Notes**: We used archived links for now since some of the links are not accessible in real-time.
