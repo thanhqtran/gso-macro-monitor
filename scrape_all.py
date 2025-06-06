@@ -15,46 +15,62 @@ def get_data(url):
     data = xmltodict.parse(str(soup))
     return data
 
-def get_obs_data(dataframe):
-    x_dict = []
-    y_dict = []
-    for i in range(0,len(dataframe['Obs'])):
-        x = dataframe['Obs'][i]['@TIME_PERIOD'] 
-        y = dataframe['Obs'][i]['@OBS_VALUE']
-        x = pd.to_datetime(x) #convert x to datetime
-        try:
-            y = float(y)
-        except:
-            y = np.nan
-        x_dict.append(x)
-        y_dict.append(y)
-    return x_dict, y_dict
+# def get_obs_data(dataframe):
+#     x_dict = []
+#     y_dict = []
+#     for i in range(0,len(dataframe['Obs'])):
+#         x = dataframe['Obs'][i]['@TIME_PERIOD'] 
+#         y = dataframe['Obs'][i]['@OBS_VALUE']
+#         x = pd.to_datetime(x) #convert x to datetime
+#         try:
+#             y = float(y)
+#         except:
+#             y = np.nan
+#         x_dict.append(x)
+#         y_dict.append(y)
+#     return x_dict, y_dict
 
-def get_meta_data(dataframe):
-    meta_data = {}
-    meta_data['REF_AREA'] = dataframe['@REF_AREA']
-    meta_data['INDICATOR'] = dataframe['@INDICATOR']
-    meta_data['FREQ'] = dataframe['@FREQ']
-    meta_data['DATA_DOMAIN'] = dataframe['@DATA_DOMAIN']
-    return meta_data
+# def get_meta_data(dataframe):
+#     meta_data = {}
+#     meta_data['REF_AREA'] = dataframe['@REF_AREA']
+#     meta_data['INDICATOR'] = dataframe['@INDICATOR']
+#     meta_data['FREQ'] = dataframe['@FREQ']
+#     meta_data['DATA_DOMAIN'] = dataframe['@DATA_DOMAIN']
+#     return meta_data
 
 # return unique database and database_link pair
 database_df = database_df.drop_duplicates(subset=['database', 'database_link', 'database_link_archive']).reset_index(drop=True)
 
-# extract data from database_link_archive
+# extract data
 extracted_database = []
 
-# archived
-for i in range(0, len(database_df)):
+for i in range(len(database_df)):
     database = database_df['database'][i]
-    print('Scraping', database)
-    url = database_df['database_link_archive'][i]
+    url_primary = database_df['database_link'][i]
+    url_backup = database_df['database_link_archive'][i]
+    
+    print(f"Scraping: {database}")
+    
+    # Try primary link
     try:
-        data = get_data(url)
+        data = get_data(url_primary)
         database_raw = data['message:StructureSpecificData']['message:DataSet']['Series']
         extracted_database.append(database_raw)
+        print(f"Success with primary link: {url_primary}")
+        continue  # go to next database if success
     except Exception as e:
-        print(f"Failed to scrape {database} from {url}: {e}")
+        print(f"Primary link failed for {database}: {e}")
+    
+    # Try archive link if primary fails
+    try:
+        print(f"Trying archive link: {url_backup}")
+        data = get_data(url_backup)
+        database_raw = data['message:StructureSpecificData']['message:DataSet']['Series']
+        extracted_database.append(database_raw)
+        print(f"Success (archive): {url_backup}")
+    except Exception as e:
+        print(f"Failed to scrape {database} from archive link: {e}")
+
 
 
 # save extracted data to json
