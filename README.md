@@ -1,19 +1,15 @@
 # Vietnam Macroeconomic Monitor
 
+## Purposes
+
 This project aims to provide the most accurate and up-to-date data on the Vietnamese economy.
 
-With the data, you can create fancy figures.
-
 Data retrieving procedure:
-- I scraped data from GSO (stored in `.xml` format). In total, there are 13 databases.
-- I then extracted the information from these databases and stored them in one single `.json` file.
+- I scraped data from GSO (stored in `.xml` format). In total, there are 15 databases.
+- I then extracted the information from these databases and stored it in a single `.json` file.
 - To download, see `Release` on the right panel.
 
-**Notes**: We used archived links for now since some of the links are not accessible in real-time.
-
-Most archived links contain data until the end of 2023 (National Accounts data until 2023q2).
-
-Data since 2023q2 can be accessed in the [Excel sheets provided by GSO](http://nsdp.gso.gov.vn/index.htm).
+The comprehensive data can be found in e-DSBB at the [Excel sheets provided by GSO](http://nsdp.gso.gov.vn/index.htm).
 
 **UPDATE**: 
 
@@ -21,13 +17,26 @@ Data since 2023q2 can be accessed in the [Excel sheets provided by GSO](http://n
 
 - (2024/11/22): New data until 2024q3 are available now.
 
+## Usage
+
+To install all dependencies, run
+
+```
+pip install -r requirements.txt
+```
+
+- To scrape all data at once, run `scrape_all.py`
+- After scraping all the data, filter out variables of your interest by running `make_df.py`
+- Data description can be found in `dsbb_indicator_desc.csv`
+- All databases are found in `dsbb_database.csv`
+
 ## Tiếng Việt
 
 Để tiện cho mục tiêu nghiên cứu, mình viết một số script trên Python để cho máy đọc dữ liệu chính thức từ Tổng cục thống kê GSO.
 
 Với CSDL này, chúng ta có thể vẽ các biểu đồ cơ bản hoặc ước lượng các mô hình vĩ mô.
 
-Hiện nay GSO có 13 CSDL kinh tế, chủ yếu quan tâm đến các dữ liệu vĩ mô theo quý.
+Hiện nay GSO có 15 CSDL kinh tế, chủ yếu quan tâm đến các dữ liệu vĩ mô theo quý.
 
 Những ai cần dùng có thể tải về toàn bộ data ở mục `Release`.
 
