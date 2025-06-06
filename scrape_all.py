@@ -5,7 +5,7 @@ import xmltodict, json
 import textwrap
 
 # read database
-database_csv = pd.read_csv('https://github.com/thanhqtran/gso-macro-monitor/blob/6cc857a3ee7a4782b66ad7a682f6b1a081533e36/dsbb_database.csv')
+database_csv = pd.read_csv('https://raw.githubusercontent.com/thanhqtran/gso-macro-monitor/refs/heads/main/dsbb_database.csv')
 database_df = pd.DataFrame(database_csv)
 
 # parse data from xml to python dictionary
