@@ -86,5 +86,4 @@ ex_var_df['REF_AREA'] = ex_var_meta['REF_AREA']
 ex_var_df['BASE_PER'] = ex_var_meta['BASE_PER']
 
 # save as csv, set the file name to the indicator name
-ex_var_df.to_csv('data/'+ex_var_meta['DATA_DOMAIN']+'_'+ex_var_meta['INDICATOR']+'_'+ex_var_meta['FREQ']+'.csv')
-
+# ex_var_df.to_csv('data/'+ex_var_meta['DATA_DOMAIN']+'_'+ex_var_meta['INDICATOR']+'_'+ex_var_meta['FREQ']+'.csv')

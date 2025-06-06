@@ -47,10 +47,15 @@ extracted_database = []
 # archived
 for i in range(0, len(database_df)):
     database = database_df['database'][i]
+    print('Scraping', database)
     url = database_df['database_link_archive'][i]
-    data = get_data(url)
-    database_raw = data['message:StructureSpecificData']['message:DataSet']['Series']
-    extracted_database.append(database_raw)
+    try:
+        data = get_data(url)
+        database_raw = data['message:StructureSpecificData']['message:DataSet']['Series']
+        extracted_database.append(database_raw)
+    except Exception as e:
+        print(f"Failed to scrape {database} from {url}: {e}")
+
 
 # save extracted data to json
 with open('extracted_database.json', 'w') as f:
