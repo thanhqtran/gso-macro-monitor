@@ -5,7 +5,7 @@ import xmltodict, json
 import textwrap
 
 # read database
-database_csv = pd.read_csv('https://raw.githubusercontent.com/thanhqtran/gso-macro-monitor/refs/heads/main/dsbb_indicator_desc.csv')
+database_csv = pd.read_csv('https://github.com/thanhqtran/gso-macro-monitor/blob/6cc857a3ee7a4782b66ad7a682f6b1a081533e36/dsbb_database.csv')
 database_df = pd.DataFrame(database_csv)
 
 # parse data from xml to python dictionary
@@ -15,31 +15,6 @@ def get_data(url):
     data = xmltodict.parse(str(soup))
     return data
 
-# def get_obs_data(dataframe):
-#     x_dict = []
-#     y_dict = []
-#     for i in range(0,len(dataframe['Obs'])):
-#         x = dataframe['Obs'][i]['@TIME_PERIOD'] 
-#         y = dataframe['Obs'][i]['@OBS_VALUE']
-#         x = pd.to_datetime(x) #convert x to datetime
-#         try:
-#             y = float(y)
-#         except:
-#             y = np.nan
-#         x_dict.append(x)
-#         y_dict.append(y)
-#     return x_dict, y_dict
-
-# def get_meta_data(dataframe):
-#     meta_data = {}
-#     meta_data['REF_AREA'] = dataframe['@REF_AREA']
-#     meta_data['INDICATOR'] = dataframe['@INDICATOR']
-#     meta_data['FREQ'] = dataframe['@FREQ']
-#     meta_data['DATA_DOMAIN'] = dataframe['@DATA_DOMAIN']
-#     return meta_data
-
-# return unique database and database_link pair
-database_df = database_df.drop_duplicates(subset=['database', 'database_link', 'database_link_archive']).reset_index(drop=True)
 
 # extract data
 extracted_database = []
