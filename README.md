@@ -1,5 +1,9 @@
 # Vietnam Macroeconomic Monitor
 
+- (2025/06/06): Data archived until 20250601 was released.
+- (2024/11/20): Data archived until 2023q2 was released.
+- (2024/11/22): New data until 2024q3 are available now.
+
 ## Purposes
 
 This project aims to provide the most accurate and up-to-date data on the Vietnamese economy.
@@ -11,11 +15,6 @@ Data retrieving procedure:
 
 The comprehensive data can be found in e-DSBB at the [Excel sheets provided by GSO](http://nsdp.gso.gov.vn/index.htm).
 
-**UPDATE**: 
-
-- (2024/11/20): Data archived until 2023q2 was released.
-
-- (2024/11/22): New data until 2024q3 are available now.
 
 ## Usage
 
