@@ -2,12 +2,12 @@ import json
 import pandas as pd
 
 # Load JSON data
-with open('extracted_database.json', 'r', encoding='utf-8') as f:
+with open('/Users/quang-thanhtran/GitHub/gso-macro-monitor/extracted_database.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Define multiple indicators and frequency
-indicators = ["NC_R_XDC", "NI_R_XDC", "NFI_R_XDC", "NNXGS_R_XDC"]
-frequency = "A"
+indicators = ["VNM_GGO_GGBE_XDC"]
+frequency = "Q"
 
 # Flatten all entries into one list
 all_entries = []
@@ -33,6 +33,6 @@ if series_dict:
     df = pd.DataFrame(series_dict)
     df.index.name = "Date"
     df = df.sort_index().reset_index()
-    print(df)
+    df.to_csv('government_expenditure.csv', index=False)
 else:
     print("No matching data found.")
