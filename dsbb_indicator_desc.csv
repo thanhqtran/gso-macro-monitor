@@ -444,3 +444,19 @@ NGDPVA_R_ISIC3_O91_BY1994_XDC,Real GDP by 1994: Activity of party and of members
 NGDPVA_R_ISIC3_O_BY1994_XDC,"Real GDP by 1994: community, social & personal serive activities",,NAG,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
 NGDPVA_R_ISIC3_P_BY1994_XDC,Real GDP by 1994: private households with employed persons,,NAG,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
 NGDPTXS_R_BY1994_XDC,Real GDP by 1994: Taxes less Subsidies on Products ,,NAG,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml,https://web.archive.org/web/20231004001745/https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/GDPVNM.xml
+PPPI_ISIC4_A_BY_PP_IX,Producer Price index: Agricultural, Forestry & Fishing Products,,PPIVNM,
+PPPI_ISIC4_A01_BY_PP_IX,Producer Price index: Agriculture Products,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_A02_BY_PP_IX,Producer Price index: Forestry Products,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_A03_BY_PP_IX,Producer Price index: Fishing Products,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+VNM_PPPI_ISIC4_BTE_BY_PP_IX,Producer Price Index: Industrial,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_B_BY_PP_IX,Producer Price index: Mining and Quarrying,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_C_BY_PP_IX,Producer Price index: Manufacturing,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_D_BY_PP_IX,Producer Price index: Production & supply of electricity gas hot water steam and air-conditioning,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_E_BY_PP_IX,Producer Price index: Water supply sewerage waste management and remediation activities,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+VNM_PPPI_ISIC4_HTJ_PTR_BY_PP_IX,Producer Price index: Services,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_H_BY_PP_IX,Producer Price index: Transportation and Storage,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_I_BY_PP_IX,Producer Price index: Accomodation and catering service,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_J_BY_PP_IX,Producer Price index: Information and Communication,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_P_BY_PP_IX,Producer Price index: Education and Training,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_Q_BY_PP_IX,Producer Price index: Human Health and Social Work Activities,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
+PPPI_ISIC4_R_BY_PP_IX,Producer Price index: Arts, Entertainment & Recreation,,PPIVNM,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml,https://nsdp.gso.gov.vn/GSO-chung/SDMXFiles/GSO/PPIVNM.xml
