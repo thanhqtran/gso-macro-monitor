@@ -1,4 +1,4 @@
-time,output,final_expenditure,capital,export,import,,expenditure_of_output,capital_of_output,net_export_of_output,nominal_gdp,nominal_consumption,nominal_capital,link
+time,output,final_expenditure,capital,export,import,net export,expenditure_of_output,capital_of_output,net_export_of_output,nominal_gdp,nominal_consumption,nominal_capital,link
 2025q1,6.93,7.45,7.24,9.71,12.45,-2.74,,,,2608646.23673842,1200345.39136092,3629.06757665369,"https://www.nso.gov.vn/en/data-and-statistics/2025/04/report-on-socio-economic-situation-in-quarter-i-in-2025/#:~:text=Regarding%20GDP%20expenditure%20in%20the,and%20services%20increased%20by%2012.45%25."
 2024q4,7.55,6.57,7.2,15.45,16.1,-0.650000000000002,,,,3169839.44754525,1289048.23603141,841697.150443077,"https://www.nso.gov.vn/en/highlight/2025/02/socio-economic-situation-in-the-fourth-quarter-and-2024/#:~:text=Gross%20domestic%20product%20(GDP)%20in,first%20quarter%20increased%20by%205.98%25%2C"
 2024q3,7.4,6.18,6.86,16.94,17.05,-0.109999999999999,,,,2772618.25884533,940205.177899439,533804.138842003,https://www.nso.gov.vn/en/data-and-statistics/2024/11/socio-economic-situation-in-the-third-quarter-and-nine-months-of-2024/
