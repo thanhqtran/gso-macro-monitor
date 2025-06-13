@@ -57,6 +57,18 @@ Phần link gốc không có mô tả ý nghĩa `@INDICATOR`. Ai quan tâm có t
 
 - My dataset collection: [thanhqtran/dataset](https://github.com/thanhqtran/dataset)
 
+**ASEAN**:
+
+- Thailand National Account Statistics [From 1993Q1](https://www.nesdc.go.th/nesdb_en/ewt_news.php?nid=4555&filename=index)
+- Singapore National Account (Singstat) [From 1975Q1](https://www.singstat.gov.sg/find-data/search-by-theme/economy/national-accounts/latest-data)
+- Malaysia National Account [From 2000Q1](https://ekonomi.gov.my/en/socio-economic-statistics/socio-economic/national-accounts)
+- Indonesian National Account [From 1990Q1](https://fred.stlouisfed.org/tags/series?t=gdp%3Bindonesia%3Bquarterly)
+- Phillippines [From 1981Q1](https://openstat.psa.gov.ph/Metadata/Economic-Accounts/National-Accounts-of-the-Philippines/Quarterly-Gross-Domestic-Product-Series-Q1-1981-to-Q4-2023)
+- Brunei [From 2014Q1](https://deps.mofe.gov.bn/SitePages/National%20Accounts.aspx)
+- Cambodia [Annual_only](https://www.nbc.gov.kh/english/economic_research/NSDP.html)
+- Lao PDR [Annual only](https://laosis.lsb.gov.la/)
+
+
 ## Code Reference:
 
 - Real-time routines: [Scheduling Notebook and Script Runs with GitHub Actions](https://towardsdatascience.com/scheduling-notebook-and-script-runs-with-github-actions-cc60f3ac17f2), with [Git Repo](https://github.com/venkatesannaveen/medium-articles).
