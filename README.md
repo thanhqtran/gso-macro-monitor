@@ -59,7 +59,7 @@ Phần link gốc không có mô tả ý nghĩa `@INDICATOR`. Ai quan tâm có t
 
 **ASEAN**:
 
-- Thailand National Account Statistics [From 1993Q1](https://www.nesdc.go.th/nesdb_en/ewt_news.php?nid=4555&filename=index)
+- Thailand National Account Statistics [From 1993Q1](https://www.nesdc.go.th/en/)
 - Singapore National Account (Singstat) [From 1975Q1](https://www.singstat.gov.sg/find-data/search-by-theme/economy/national-accounts/latest-data)
 - Malaysia National Account [From 2000Q1](https://ekonomi.gov.my/en/socio-economic-statistics/socio-economic/national-accounts)
 - Indonesian National Account [From 1990Q1](https://fred.stlouisfed.org/tags/series?t=gdp%3Bindonesia%3Bquarterly)
