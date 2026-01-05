@@ -13,7 +13,7 @@ Data retrieving procedure:
 - I then extracted the information from these databases and stored it in a single `.json` file.
 - To download, see `Release` on the right panel.
 
-The comprehensive data can be found in e-DSBB at the [Excel sheets provided by GSO](http://nsdp.gso.gov.vn/index.htm).
+The comprehensive data can be found in e-DSBB at the [Excel sheets provided by GSO](http://nsdp.nso.gov.vn/index.htm).
 
 
 ## Usage
