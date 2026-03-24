@@ -9,25 +9,54 @@
 This project aims to provide the most accurate and up-to-date data on the Vietnamese economy.
 
 Data retrieving procedure:
-- I scraped data from GSO (stored in `.xml` format). In total, there are 15 databases.
-- I then extracted the information from these databases and stored it in a single `.json` file.
-- To download, see `Release` on the right panel.
 
-The comprehensive data can be found in e-DSBB at the [Excel sheets provided by GSO](http://nsdp.nso.gov.vn/index.htm).
+- Data is sourced from NSO's e-DSBB Excel files (stored at `nsdp.nso.gov.vn`). There are 5 datasets: GDP, CPI, IIP, LMI, PPI.
+- `nso_scraper.py` downloads, parses, and plots the data directly from NSO's Excel files.
+- Legacy XML scraping from GSO is also available via `scrape_all.py` (15 databases → single `.json` file).
+- To download pre-built data, see `Release` on the right panel.
 
+The comprehensive data can be found in e-DSBB at the [Excel sheets provided by NSO](http://nsdp.nso.gov.vn/).
 
 ## Usage
 
 To install all dependencies, run
 
-```
+```sh
 pip install -r requirements.txt
 ```
 
+### NSO Excel scraper (new)
+
+```sh
+python nso_scraper.py
+```
+
+Downloads and caches Excel files to `data/`, parses all indicators into tidy CSVs, and saves plots. Available datasets:
+
+| Key | Description | File |
+| --- | --- | --- |
+| `GDP` | National Accounts (quarterly & annual) | `GDP_VNM.xlsx` |
+| `CPI` | Consumer Price Index | `CPI_VNM.xlsx` |
+| `IIP` | Industrial Production Index | `IIP_VNM.xlsx` |
+| `LMI` | Labor Market Indicators | `LMI_VNM.xlsx` |
+| `PPI` | Producer Price Index | `PPI_VNM.xlsx` |
+
+To scrape a specific dataset in your own script:
+
+```python
+from nso_scraper import download_excel, parse_nso_sheet, get_series, NSO_LINKS
+
+content = download_excel(NSO_LINKS["GDP"])
+df = parse_nso_sheet(content, "Dataset_Q")       # quarterly sheet
+gdp = get_series(df, "NGDP_R_PA_XDC")           # real GDP series
+```
+
+### GSO XML scraper (legacy)
+
 - To scrape all data at once, run `scrape_all.py`
-- After scraping all the data, filter out variables of your interest by running `make_df.py`
-- Data description can be found in `dsbb_indicator_desc.csv`
-- All databases are found in `dsbb_database.csv`
+- After scraping, filter variables of interest with `make_df.py`
+- Data description: `dsbb_indicator_desc.csv`
+- All databases listed in: `dsbb_database.csv`
 
 ## Tiếng Việt
 
